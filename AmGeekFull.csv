@@ -1,0 +1,1033 @@
+Title,Problem
+ Optimal Strategy For A Game ,"
+You are given an array A of size N. The array contains integers and is of even length. The elements of the array represent N coin of values V1, V2, ....Vn. You play against an opponent in an alternating way. 
+In each turn, a player selects either the first or last coin from the row, removes it from the row permanently, and receives the value of the coin.
+You need to determine the maximum possible amouint of money you can win if you go first.
+Input:
+The first line of input contains T denoting the number of testcases. T testcases follow. Each testcase contains two lines of input. The first line contains N denoting the size of the array. The second line contains N elements of the array.
+Output:
+For each testcase, in a new line, print the maximum amout.
+Constraints:
+1 <= T <= 100
+2 <= N <= 100
+1 <= Ai <= 106
+Examples:
+Input:
+2
+4
+5 3 7 10
+4
+8 15 3 7
+Output:
+15
+22
+Explanation:
+Testcase1:  The user collects maximum value as 15(10 + 5)
+Testcase2:  The user collects maximum value as 22(7 + 15) 
+
+"
+ Closest Palindrome  ,"
+Given a number N, our task is to find the closest Palindrome number whose absolute difference with given number is minimum. If 2 Palindome numbers have same absolute difference from the given number, then output the smaller one.
+Input:
+The first line of the input contains integer T denoting the number of test cases. Each test case contains a  number N.
+Output:
+For each test case, the print the closest palindrome number.
+Note:  If the difference of two closest palindromes numbers is equal then we print smaller number as output. 
+Constraints:
+1<=T<=1000
+1<=n<=10^14
+Example:
+Input :
+2
+10
+489
+Output:
+9
+484
+Explanation : 
+Test Case 1: Smallest closest palindrome number is 9.
+
+"
+ Minimum Platforms ,"
+Given arrival and departure times of all trains that reach a railway station. Your task is to find the minimum number of platforms required for the railway station so that no train waits.
+Note: Consider that all the trains arrive on the same day and leave on the same day. Also, arrival and departure times will not be same for a train, but we can have arrival time of one train equal to departure of the other. In such cases, we need different platforms, i.e at any given instance of time, same platform can not be used for both departure of a train and arrival of another.
+Input:
+The first line of input contains T, the number of test cases. For each test case, first line will contain an integer N, the number of trains. Next two lines will consist of N space separated time intervals denoting arrival and departure times respectively.
+Note: Time intervals are in the 24-hour format(hhmm),  of the for HHMM , where the first two charcters represent hour (between 00 to 23 ) and last two characters represent minutes (between 00 to 59).
+Output:
+For each test case, print the minimum number of platforms required for the trains to arrive and depart safely.
+Constraints:
+1 <= T <= 100
+1 <= N <= 1000
+1 <= A[i] < D[i] <= 2359
+Example:
+Input:
+2
+6 
+0900  0940 0950  1100 1500 1800
+0910 1200 1120 1130 1900 2000
+3
+0900 1100 1235
+1000 1200 1240 
+Output:
+3
+1
+Explanation:
+Testcase 1: Minimum 3 platforms are required to safely arrive and depart all trains.
+
+"
+ Maximum Tip Calculator ,"
+Rahul and Ankit are the only two waiters in Royal Restaurant. Today, the restaurant received N orders. The amount of tips may differ when handled by different waiters, if Rahul takes the ith order, he would be tipped Ai rupees and if Ankit takes this order, the tip would be Bi rupees.
+In order to maximize the total tip value they decided to distribute the order among themselves. One order will be handled by one person only. Also, due to time constraints Rahul cannot take more than X orders and Ankit cannot take more than Y orders. It is guaranteed that X + Y is greater than or equal to N, which means that all the orders can be handled by either Rahul or Ankit. Find out the maximum possible amount of total tip money after processing all the orders.
+
+Input:
+•    The first line contains one integer, number of test cases.
+•    The second line contains three integers N, X, Y.
+•    The third line contains N integers. The ith integer represents Ai.
+•    The fourth line contains N integers. The ith integer represents Bi.
+ 
+Output:
+Print a single integer representing the maximum tip money they would receive.
+ 
+Constraints:
+1 ≤ N ≤ 105
+1 ≤ X, Y ≤ N; X + Y ≥ N
+1 ≤ Ai, Bi ≤ 104
+ 
+Example:
+Input:
+2
+5 3 3
+1 2 3 4 5
+5 4 3 2 1
+8 4 4
+1 4 3 2 7 5 9 6 
+1 2 3 6 5 4 9 8
+ 
+Output:
+21
+43
+
+"
+ Four Elements ,"
+Given an array A of N integers, find a combination of four elements in the array whose sum is equal to a given value X.
+Input:
+First line consists of T test cases. First line of every test case consists of an integer N, denoting the number of elements in an array. Second line consists of N spaced array elements. Third line of every test case X.
+Output:
+Single line output, print 1 if combination is found else 0.
+Constraints:
+1 <= T <= 100
+1 <= N <= 102
+Example:
+Input:
+1
+6
+1 5 1 0 6 0
+7
+Output:
+1
+Explantion:
+Testcase 1: 1, 5, 1, 0 are the four elements which makes sum 7.
+
+"
+ Save Ironman ,"
+Jarvis is weak in computing palindromes for Alphanumeric characters.
+While Ironman is busy fighting Thanos, he needs to activate sonic punch but Jarvis is stuck in computing palindromes.
+You are given a string S containing alphanumeric characters. Find out whether the string is a palindrome or not.
+If you are unable to solve it then it may result in the death of Iron Man.
+Input:
+The first line of the input contains T, the number of test cases. T testcases follow.  Each line of the test case contains string 'S'.
+Output:
+Each new line of the output contains ""YES"" if the string is palindrome and ""NO"" if the string is not a palindrome.
+Constraints:
+1<=T<=100
+1<=|S|<=100000
+Note: Consider alphabets and numbers only for palindrome check. Ignore symbols and whitespaces.
+Example:
+Input:
+2
+I am :IronnorI Ma, i
+Ab?/Ba
+Output:
+YES
+YES
+
+"
+ How Many X's? ,"
+Given an integer X within the range of 0 to 9, and given two positive integers as upper and lower bounds respectively, find the number of times X occurs as a digit in an integer within the range, excluding the bounds. Print the frequency of occurrence as output.
+Input:
+The first line of input is an integer T, denoting the number of test cases. For each test case, there are two lines of input, first consisting of the integer X, whose occurrence has to be counted. Second, the lower and upper bound, L and U which are positive integers, on the same line separated by a single space, respectively.
+Output:
+For each test case, there is only one line of output, the count of the occurrence of X as a digit in the numbers lying between the lower and upper bound, excluding them.
+Constraints:
+1<=T<=100
+0<=X<=9
+0<L<U<=10^5
+Example:
+Input
+5
+3
+100 250
+2
+10000 12345
+0
+20 21
+9
+899 1000
+1
+1100 1345
+Output:
+35
+1120
+0
+120
+398
+Explanation:
+In the first test case, the occurrence of 3 in the numbers starting from 101 to 249 is counted and comes out to be 35.
+Similarly, for all the other test cases, the occurrence of the given number X is printed as output.
+
+"
+ Longest Sub-Array with Sum K ,"
+Given an array containing N integers and an integer K. Your task is to find the length of the longest Sub-Array with sum of the elements equal to the given value K. 
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. First line of each test case contains two Integers N and K and the second line contains N space separated elements of the array.
+Output:
+For each test case, print the required lenght of the longest Sub-Array in new line. If no such sub array can be formed print 0.
+Constraints:
+1<=T<=500
+1<=N,K<=105
+-105<=A[i]<=105
+
+Example:
+Input:
+3
+6 15
+10 5 2 7 1 9
+6 -5
+-5 8 -14 2 4 12
+3 6
+-1 2 3
+Output:
+4
+5
+0
+Explanation:
+TestCase 1:
+
+Input : arr[] = { 10, 5, 2, 7, 1, 9 }, 
+K = 15
+Output : 4
+The sub-array is {5, 2, 7, 1}.
+
+"
+ Check if array contains contiguous integers with duplicates allowed ,"
+Given an array of n integers(duplicates allowed). Print “Yes” if it is a set of contiguous integers else print “No”.
+
+INPUT: The first line consists of an integer T i.e. the number of test cases. First line of each test case consists of an integer n, denoting the size of array. Next line consists of n spaced integers, denoting elements of array.
+
+OUTPUT:  Print “Yes” if it is a set of contiguous integers else print “No”.
+ 
+CONSTRAINTS:
+1<=T<=100
+1<=n<100000
+a[i]<=105
+ Example:
+ 2
+8
+5  2  3  6  4  4  6  6
+7
+10  14  10  12  12  13  15
+Output :
+ Yes
+ No
+Explanation:
+Test Case 1 : The elements  of array form a contiguous set of integers which is {2, 3, 4, 5, 6} so the output is Yes.
+Test Case 2: We are unable to form contiguous set of integers using elements of array.
+
+"
+ Word with maximum frequency ,"
+You are given a string that is made up of words separated by spaces. Your task is to find the word with highest frequency, i.e. it appears maximum times in the sentence. If multiple words have maximum frequency, then print the word that occurs first in the sentence.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each testcase contains a string.
+Output:
+Print the word with the maximum frequency and the frequency, both separated by a space. See example for more clarity.
+Constraints:
+1<=T<=100
+1<=Total Words<=100
+Example:
+Input:
+5
+the devil in the sky
+amazon is amazon geeks for geeks is geeks for geeks
+this is not right
+excels
+the phenomenal one
+Output:
+the 2
+geeks 4
+this 1
+excels 1
+the 1
+Explanation:
+For testcase 1: The frequency of the is 2, so we print the and its frequency
+For testcase 3: Every word has the frequency of 1, so we print this 1 as this occurs first in the sentence
+ 
+
+"
+ Pairs with Positive Negative values ,"
+Given an array of distinct integers, print all the pairs having positive value and negative value of a number that exists in the array.
+NOTE: If there is no such pair in the array , print ""0"".
+Input:
+The first line consists of an integer T i.e number of test cases. The first line of each test case consists of an integer n.The next line of each test case consists of n spaced integers.
+Output:
+Print all the required pairs in the increasing order of their absolute numbers.
+Constraints: 
+1<=T<=100
+1<=n<=1000
+-1000<=a[i]<=1000
+Example:
+Input:
+2
+6
+1 -3 2 3 6 -1
+8
+4 8 9 -4 1 -1 -8 -9
+Output:
+-1 1 -3 3 
+-1 1 -4 4 -8 8 -9 9 
+
+"
+ Prime number of set bits ,"
+Given two integers ‘L’ and ‘R’, write a program that finds the count of numbers having prime number of set bits in their binary representation in the range [L, R].
+Input:
+The first line consists of an integer T i.e number of test cases. The first and only line of each test case consists of two integers L and R. 
+Output:
+Print the required output.
+Constraints: 
+1<=T<=100
+1<=L<=R<=100000
+Example:
+Input:
+2
+6 10
+10 15 
+Output:
+4
+5
+
+"
+ Good or Bad string ,"
+In this problem, a String S is composed of lowercase alphabets and wildcard characters i.e. '?'. Here, '?' can be replaced by any of the lowercase alphabets. Now you have to classify the given String on the basis of following rules:
+If there are more than 3 consonants together or more than 5 vowels together, the String is considered to be ""BAD"". A String is considered ""GOOD"" only if it is not “BAD”.
+NOTE: String is considered as ""BAD"" if the above condition is satisfied even once. Else it is ""GOOD"" and the task is to make the string ""BAD"".
+Input:
+The first line consists of an integer T i.e number of test cases. T testcases follow. The first and only line of each test case consists of a string S. 
+Output:
+For each testcase, in a new line, print ""1""  if string is GOOD, else print ""0"".
+Constraints: 
+1 <= T <= 100
+1 <= |S| <= 100
+Example:
+Input:
+2
+aeioup??
+bcdaeiou??
+Output:
+1
+0
+
+"
+ Count the characters ,"
+Given a string S. The task is to count the characters that have ‘N’ number of occurrences. If a character appears consecutively it is counted as 1 occurrence.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow.  Each test case contains a string S and a number N as input.
+Output:
+For each test case, print the count of characters in new line.
+Constraints:
+1<=T<=100
+1<=|String length |<=104
+1<=N<=103
+Example:
+Input:
+2
+abc 1
+geeksforgeeks 2 
+Output:
+3
+4
+
+"
+ Left Rotate Matrix K times ,"
+Given a Matrix of size M x N. Your task is to print the matrix K times left rotated.
+Input:
+First line consists of T test cases. First line of every test case consists of 3 integers, M, N, K. Second line of every test case consists of M*N spaced integers.
+Output:
+Single line output, print the M*N spaced integer rotated K times.
+Constraints:
+1<=T<=100
+1<=M,N,K<=100
+Example:
+Input:
+1
+2 2 1
+1 2 3 4
+Output:
+2 1 4 3 
+
+"
+ Longest increasing subarray ,"
+Given an array containing n numbers. The problem is to find the length of the longest contiguous subarray such that every element in the subarray is strictly greater than its previous element in the same subarray. Time Complexity should be O(n).
+Input:
+The first line consists of an integer T i.e number of test cases. The first line of each test case consists of an integer n. The next line contains n spaced integers.
+Output:
+Print the required output.
+Constraints: 
+1<=T<=100
+1<=n<=100
+1<=a[i]<=104
+Example:
+Input:
+2
+9
+5 6 3 5 7 8 9 1 2
+10
+12 13 1 5 4 7 8 10 10 11
+Output:
+5
+4
+
+"
+ Absolute Difference of 1 ,"
+Given an array A of size N. Print all the numbers less than K in the array. The numbers should be such that the difference between every adjacent digit should be 1.
+Note: Print '-1' if no number if valid.
+Input:
+The first line consists of an integer T i.e number of test cases. T testcases follow. Each testcase contains two lines of input. The first line consists of two integers N and K separated by a space. The next line consists of N spaced integers. 
+Output:
+For each testcase, print the required output.
+Constraints: 
+1 <= T <= 100
+1 <= N <= 107
+1 <= K, A[i] <= 1018
+Example:
+Input:
+2
+8 54
+7 98 56 43 45 23 12 8
+10 1000
+87 89 45 235 465 765 123 987 499 655
+Output:
+43 45 23 12
+87 89 45 765 123 987
+Explanation:
+Testcase1: 43 45 23 12  all these numbers have adjacent digits diff as 1 and they are less than 54
+
+"
+ Generate all palindromic numbers less than n ,"
+Count the number of palindromic numbers less than N.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. The first line of each test case contains the integer N.
+Output:
+Print the count of all palindromic numbers less than N. Print the answer for each test case in a new line.
+Constraints:
+1 <= T <= 100
+1 <= N <= 105
+Example:
+Input:
+2
+12
+104
+Output:
+10
+19
+
+"
+ Star elements ,"
+Given an unsorted array. The task is to find all the star and super star elements in the array. Star are those elements which are strictly greater than all the elements on its right side. Super star are those elements which are strictly greater than all the elements on its left and right side.
+Note: Assume first element (A[0]) is greater than all the elements on its left side, And last element (A[n-1]) is greater than all the elements on its right side.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. First line of each test case contains an Integer N denoting size of array and the second line contains N space separated elements.
+Output:
+For each test case, print the space separated star elements and then in new line print super star elements. If no super star element present in array then print ""-1"".
+Constraints:
+1<=T<=200
+1<=N<=106
+1<=A[i]<=106
+Example:
+Input:
+2
+6
+4 2 5 7 2 1
+3
+8 6 5
+Output:
+7 2 1
+7
+8 6 5
+8
+
+"
+ Minimum Deletions ,"
+Given a string of S as input. Your task is to write a program to remove or delete minimum number of characters from the string so that the resultant string is palindrome.
+Note: The order of characters in the string should be maintained.
+Input:
+First line of input contains a single integer T which denotes the number of test cases. Then T test cases follows. First line of each test case contains a string S.
+Output:
+For each test case, print the deletions required to make the string palindrome.
+Constraints:
+1<=T<=100
+1<=length(S)<=10000
+Example:
+Input:
+2
+aebcbda
+geeksforgeeks
+Output:
+2
+8
+
+"
+ Phone directory ,"
+Given a list of contacts which exist in a phone directory and a query string str. The task is to implement search query for the phone directory. Run a search query for each prefix p of the query string str(i.e from  index 1 to str length) that prints all the distinct recommended contacts which have the same prefix as our query (p) in lexicographical order. Please refer the explanation part for better understanding.
+NOTE: If there is no match between query and contacts , print ""0"".
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains three lines. First line of each test case contains N i.e., number of contacts. Second line contains space separated all the contacts in the form of string. And third line contains query string.
+Output
+For each test case, print each query result in new line. If there is no match between query and contacts, print ""0"".
+Constraints:
+1<=T<=100
+1<=N<=50
+1<=|contact[i].length|<=50
+1<=|query length|<=6
+Example:
+Input:
+1
+3
+geeikistest geeksforgeeks geeksfortest
+geeips
+Output:
+geeikistest geeksforgeeks geeksfortest 
+geeikistest geeksforgeeks geeksfortest
+geeikistest geeksforgeeks geeksfortest
+geeikistest
+0
+0
+Explanation:
+
+By running the query on contact list, we get, 
+Suggestions based on ""g"" are: 
+geeikistest geeksforgeeks geeksfortest 
+Suggestions based on ""ge"" are:
+geeikistest geeksforgeeks geeksfortest
+Suggestions based on ""gee"" are:
+geeikistest geeksforgeeks geeksfortest
+Suggestions based on ""geei"" are:
+geeikistest
+No Results Found for ""geeip"", So print ""0"".
+No Results Found for ""geeips"", So print ""0"".    
+
+"
+ Positive and negative elements ,"
+Given an array containing equal number of positive and negative elements, arrange the array such that every positive element is followed by a negative element.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. First line of each test case contains an Integer N denoting size of array and the second line contains N space separated elements.
+Output:
+For each test case, in a new line print the arranged array.
+Constraints:
+1 <= T <= 300
+2 <= N <= 105
+-105 <= A[i] <= 105
+Example:
+Input:
+2
+6
+-1 2 -3 4 -5 6
+4
+-3 2 -4 1
+Output:
+2 -1 4 -3 6 -5
+2 -3 1 -4
+
+"
+ Chocolate Station ,"
+Geek has an array Arr, where Arr[i] (1-based indexing) denotes the number of chocolates corresponding to each station. When he move from station i to station i+1 he get A[i] – A[i+1] chocolates for free, if this number is negative, he looses that many chocolates also.
+He can only move from station i to station i+1, if he has non-negative number of chocolates with him.
+Given the cost of one chocolate is Rs. P, help geek to find the minimum cost incurred in reaching last station from the first station (station 1).
+Note: Initially Geek has 0 chocolate.
+Input:
+The first line of the input contains an integer T, denoting the number of Test cases. Then T test case follows. The first line of each test case contains an integer N, denoting the total number of stations. Then next line contains N space separated integers denoting the elements of the array. The next line contains an integer P denoting the cost of a chocolate.
+
+Output:
+For each test case output a single line containing an integer denoting the total minimum cost ncurred in reaching last station from the first station.
+
+Constraints:
+1<=T<=103
+1<=N<=105
+0<=A[i]<=105
+0<=P<=100
+
+Example:
+Input:
+2
+3
+1 2 3
+10
+6
+10 6 11 4 7 1
+5
+Output:
+30
+55
+Explanation:
+Test Case 1:
+To reach the first station from the starting point, we need to buy 1 chocolate,
+To reach station 2 form station 1, we get A[1] – A[2] = -1 chocolates i.e. we lose 1 chocolate. Hence, we need to buy 1 chocolate.
+Similarly, we need to buy 1 chocolate to reach station 3 from station 2.
+   Hence, total cost incurred = (1+1+1)*10 = 30
+Test Case 2:
+To reach to the first station from starting point he need to buy 10 chocolates. 
+Chocolates Bought = 10 ,  Chocolates balance = 0
+On reaching second station he will get (10-6)= 4 chocolates.
+Chocolates Bought= 10 , Chocolates balance = 4.
+To reach to 3 station , he has to buy (6- 11) = 5 chocolates. But he has 4 chocolates as balance So the chocolates he need to buy is (5 -4 ) =1;
+Chocolates Bought= 11 , Chocolates balance = 0.
+On reaching station 4 , he will get (11 - 4)= 7 chocolates.
+Chocolates Bought= 11 , Chocolates balance = 7.
+To reach to 5 station , he has to buy (4- 7) = 3 chocolates. But he has 7 chocolates as balance .
+Chocolates Bought= 11 , Chocolates balance = 4.
+To reach to 6 station , he will get (7- 1) = 6 chocolates. 
+Chocolates Bought= 11 , Chocolates balance = 10.
+Therefore , total chocolates he has to buy  is 11.
+Hence, Amount=11*5=55.
+
+"
+ First and last occurrences of X  ,"
+Given a sorted array with possibly duplicate elements, the task is to find indexes of first and last occurrences of an element x in the given array.
+Note: If the number x is not found in the array just print '-1'.
+Input:
+The first line consists of an integer T i.e number of test cases. The first line of each test case contains two integers n and x. The second line contains n spaced integers.
+Output:
+Print index of the first and last occurrences of the number x with a space in between.
+Constraints: 
+1<=T<=100
+1<=n,a[i]<=1000
+Example:
+Input:
+2
+9 5
+1 3 5 5 5 5 67 123 125
+9 7
+1 3 5 5 5 5 7 123 125
+Output:
+2 5
+6 6
+
+"
+ Anagram Palindrome ,"
+Given a string S, Check if characters of the given string can be rearranged to form a palindrome. 
+For example characters of “geeksogeeks” can be rearranged to form a palindrome “geeksoskeeg”, but characters of “geeksforgeeks” cannot be rearranged to form a palindrome.
+Input:
+First line consists of integer T  denoting the number of test cases. T testcases follow. For each testcase there are one line of input containing string S. 
+Output:
+For each testcase, in a new line, print ""Yes"" if is possible to make it a palindrome, else ""No"".
+Constraints:
+1 <= T <= 100
+1 <= |S| <= 1000
+Example:
+Input:
+2
+geeksogeeks
+geeksforgeeks
+Output:
+Yes
+No
+
+"
+ Row with minimum number of 1's ,"
+Determine the row index with minimum number of ones. The given 2D matrix has only zeroes and ones and also the matrix is sorted row wise. If two or more rows have same number of 1's than print the row with smallest index.
+Input:
+The first line of input contains an integer T denoting the number of test cases. The first line of each test case consists of two integer n and m. The next line consists of n*m spaced integers. 
+Output:
+Print the index of the row with minimum number of 1's. If there is 0 number of '1' in the matrix then, print '-1'.
+Constraints: 
+1 <= T <= 103
+1 <= n, m <= 100
+Example:
+Input:
+2
+3 3
+0 0 0 0 0 0 0 0 0
+4 4
+0 0 0 1 0 1 1 1 0 0 1 1 0 0 1 1
+Output:
+-1
+0
+Explanation:
+Testcase 2: The matrix formed for the given input will be as such
+0 0 0 1
+0 1 1 1
+0 0 1 1
+0 0 1 1
+First row is having minimum number of 1 i.e. answer is 0.
+ 
+
+"
+ Total number of Strings ,"
+Given 3 characters a, b, c. Find the number of strings of length n that can be formed from these 3 characters. Given that : we can use ‘a’ as many times as we want, ‘b’ maximum once, and ‘c’ maximum twice.
+Input:
+The first line of input contains an integer T denoting the number of test cases. The first and last line of each test case consists of an integer n. 
+Output:
+Print the total number of string that can be formed.
+Constraints: 
+1<=T<=20
+1<=N<=20
+Example:
+Input:
+2
+3
+5
+Output:
+19
+71 
+
+"
+ Steps by Knight ,"
+Given a square chessboard of N x N size, the position of Knight and position of a target is given. We need to find out minimum steps a Knight will take to reach the target position.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains an integer n denoting the size of the square chessboard. The next line contains the X-Y coordinates of the knight. The next line contains the X-Y coordinates of the target. 
+Output:
+Print the minimum steps the Knight will take to reach the target position.
+Constraints:
+1<=T<=100
+1<=N<=20
+1<=knight_pos,targer_pos<=N
+Example:
+Input:
+2
+6
+4 5
+1 1
+20
+5 7
+15 20
+Output:
+3
+9
+Explanation:
+Testcase 1:
+The most optimal path is: (4,5) -> (2,4) -> (3,2) -> (1,1). 
+Hence, we can reach the destination in 3 steps.
+
+"
+" Count of strings that can be formed using a, b and c under given constraints ","
+Given a length n, count the number of strings of length n that can be made using ‘a’, ‘b’ and ‘c’ with at-most one ‘b’ and two ‘c’s allowed.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. The first line of each test case contains an integer N denoting the length of the string.
+
+Output:
+Output the count of the strings that can be formed under the given constraint.
+
+Constraints:
+1<= T <=100
+1<= N <=1000
+
+Example:
+Input:
+2
+1
+3
+Output:
+3
+19
+Explanation:
+Test Case 1: N = 1
+Possible strings are: ""a"", ""b"" and ""c""
+Test Case 2: N = 3
+Number of strings with 3 occurrances of a: 1
+2-a and 1-b: 3
+2-a and 1-c: 3
+1-a, 1-b and 1-c: 6
+1-a and 2-c: 3
+1-b and 2-c: 3
+Hence, total number of strings of length 3 = 1 + 3 + 3 + 6 + 3 + 3 = 19
+ 
+
+"
+ Longest Repeating Subsequence ,"
+Given a string str, find length of the longest repeating subseequence such that the two subsequence don’t have same string character at same position, i.e., any i’th character in the two subsequences shouldn’t have the same index in the original string.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. The first line of each test case contains an integer N denoting the length of string str.
+The second line of each test case contains the string str consisting only of lower case english alphabets.
+
+Output:
+Print the length of the longest repeating subsequence for each test case in a new line.
+
+Constraints:
+1<= T <=100
+1<= N <=1000
+
+Example:
+Input:
+2
+3
+abc
+5
+axxxy
+Output:
+0
+2
+
+"
+ Index of first 1 in a sorted array of 0â€™s and 1â€™s ,"
+Given a sorted array consisting 0’s and 1’s. The task is to find the index of first ‘1’ in the given array. 
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. First line of each test case contains an Integer N denoting size of array and the second line contains N space separated 0 and 1.
+Output:
+For each test case, in a new line print the index of first 1. If 1 is not present in the array then print “-1”.
+Constraints:
+1 <= T <= 100
+1 <= N <= 107
+0 <= Ai <= 1018
+Example:
+Input:
+2
+10
+0 0 0 0 0 0 1 1 1 1
+4
+0 0 0 0
+Output:
+6
+-1
+Explanation:
+Testcase 1: First index where 1 is presented is 6.
+
+"
+ Stickler Thief ,"
+Stickler the thief wants to loot money from a society having n houses in a single line. He is a weird person and follows a certain rule when looting the houses. According to the rule, he will never loot two consecutive houses. At the same time, he wants to maximize the amount he loots. The thief knows which house has what amount of money but is unable to come up with an optimal looting strategy. He asks for your help to find the maximum money he can get if he strictly follows the rule. Each house has a[i] amount of money present in it.
+Input:
+The first line of input contains an integer T denoting the number of test cases. T testcases follow. Each test case contains an integer n which denotes the number of houses. Next line contains space separated numbers denoting the amount of money in each house.
+Output:
+For each testcase, in a newline, print an integer which denotes the maximum amount he can take home.
+Constraints:
+1 <= T <= 200
+1 <= n <= 104
+1 <= a[i] <= 104
+Example:
+Input:
+2
+6
+5 5 10 100 10 5
+3
+1 2 3
+Output:
+110
+4
+Explanation:
+Testcase1:
+5+100+5=110
+Testcase2:
+1+3=4
+
+"
+ Maximum Sub-String after at most K changes ,"
+We have a string of length n, which consist only UPPER and LOWER CASE characters and we have a number k (always less than n and greater than 0). We can make at most k changes in our string such that we can get a sub-string of maximum length which have all same characters.
+Input:
+The first line of the input contains an integer T which denotes the number of test cases to follow. Each test case contains space separated 2 integers n and k. Next line has a string of length n. 
+
+Output:
+Print an integer which denotes the maximum length possible.
+
+Constraints:
+1<=T<=100
+1<=n,k<=100000
+1<=|S|<=100000â€‹â€‹
+
+Example:
+Input:
+2
+5 2
+ABABA
+6 4
+HHHHHH
+
+Output:
+5
+6
+
+"
+ Second most repeated string in a sequence ,"
+Given a sequence of strings, the task is to find out the second most repeated (or frequent) string in the given sequence.
+Note: No two strings are the second most repeated, there will be always a single string.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case consists of two lines. First line of each test case contains an Integer N denoting number of strings in a sequence and the second line contains N space separated strings.
+Output:
+For each test case, in a new line print the second most repeated string.
+Constraints:
+1<=T<=100
+3<=N<=103
+1<=|String length|<=100
+Example:
+Input:
+2
+6
+aaa bbb ccc bbb aaa  aaa
+6
+geeks for geeks for geeks aaa
+Output:
+bbb
+for
+
+"
+ Decode It  ,"
+An encoded string S consisting of alphabets(lowercase) and integers(1<=num<=9) is given, the task is to decode it and print the character at the 'K'th position in the string. The pattern in which the strings were encoded were as follows :
+original string: jonjonsnowjonjonsnowjonjonsnow
+encoded string: jon2snow3
+Note: encoded string will always start with an alphabet and end with an number.
+Input:
+The first line contains a single integer T i.e. the number of test cases. The First line of each test case consists of a encoded string S. The second line of each test case includes of an integer K. 
+Output: 
+Print the character at the Kth position in the original string.
+Constraints:
+1 <= T <= 100
+2 <= N <= 30
+1 <= K <= N
+Examples:
+Input:
+1
+jon2snow3
+8
+Output:
+n
+Explanation:
+Testcase1: The given string after decoding it will be as such: jonjonsnowjonjonsnowjonjonsnow. 8th character in string after decoding is: 'n'.
+
+"
+ Rotten Oranges ,"
+Given a matrix of dimension r*c where each cell in the matrix can have values 0, 1 or 2 which has the following meaning:
+0 : Empty cell 
+1 : Cells have fresh oranges 
+2 : Cells have rotten oranges 
+So, we have to determine what is the minimum time required to rot all oranges. A rotten orange at index [i,j] can rot other fresh orange at indexes [i-1,j], [i+1,j], [i,j-1], [i,j+1] (up, down, left and right) in unit time. If it is impossible to rot every orange then simply return -1.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Each test case contains two integers r and c, where r is the number of rows and c is the number of columns in the array a[]. Next line contains space separated r*c elements each in the array a[].
+Output:
+Print an integer which denotes the minimum time taken to rot all the oranges (-1 if it is impossible).
+Constraints:
+1 <= T <= 100
+1 <= r <= 100
+1 <= c <= 100
+0 <= a[i] <= 2
+Example:
+Input:
+2
+3 5
+2 1 0 2 1 1 0 1 2 1 1 0 0 2 1 
+3 5
+2 1 0 2 1 0 0 1 2 1 1 0 0 2 1
+
+Output:
+2
+-1
+Explanation:
+Testcase 1:
+2 | 1 | 0 | 2 | 1
+1 | 0 | 1 | 2 | 1
+1 | 0 | 0 | 2 | 1
+Oranges at positions {0,0}, {0, 3}, {1, 3} and {2, 3} will rot oranges at {0, 1}, {1, 0}, {0, 4}, {1, 2}, {1, 4}, {2, 4} during 1st unit time. And, during 2nd unit time, orange at {1, 0} got rotten and will rot orange at {2, 0}. Hence, total 2 unit of time is required to rot all oranges.
+ 
+
+"
+ Find Pair Given Difference ,"
+Given an unsorted array Arr[] and a number N. You need to write a program to find if there exists a pair of elements in the array whose difference is N.
+Input:
+First line of input contains an integer T which denotes the number of test cases. Then T test cases follows. First line of each test case contains two space separated integers L and N where L denotes the length of array or the number of elements in the array and N denotes the difference between two elements. Second line of each test case contains L space separated integers which denotes the elements of the array.
+Output:
+For each test case, in a new line print 1 if the pair is found otherwise print -1 if there does not exist any such pair.
+Constraints:
+1<=T<=100
+1<=L<=104
+1<=Arr[i]<=105
+Example:
+Input:
+2
+6 78
+5 20 3 2 5 80
+5 45
+90 70 20 80 50
+Output:
+1
+-1
+
+"
+ Minimum Difference among K ,"
+Given an array of n integers and a positive number k. We are allowed to take any k integers from the given array. The task is to find the minimum possible value of the difference between maximum and minimum of k numbers.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Each test case contains two integers n and k where n denotes the number of elements in the array a[]. Next line contains space separated n elements in the array a[].â€‹
+
+Output:
+Print an integer which denotes the minimum difference achieved.
+
+Constraints:
+1<=T<=50
+1<=n<=1000
+1<=a[i]<=100000
+1<=k<=1000â€‹
+
+Example:
+Input:
+2
+7 3
+10 100 300 200 1000 20 30
+10 4
+1 2 3 4 10 20 30 40 100 200
+
+Output:
+20
+3
+
+"
+ Maximum occured integer ,"
+Given two arrays L[] and R[] consisting of N ranges of the form L and R, L[i] consists of starting point of range and R[i] consists of corresponding end point of the range. The task is to find the maximum occurred integer in all the ranges. If more than one such integer exits, print the smallest one.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. Each test case contains an integer n denoting the size of the ranges. The next two lines contain the n space separated elements of L and R respectively.
+Output:
+Print the smallest maximum occured integer in all the ranges.
+Constraints:
+1 <= T <= 105
+1 <= n <= 105
+0 <= L[i], R[i] <= 105
+Example:
+Input:
+2
+4
+1 4 3 1
+15 8 5 4
+5
+1 5 9 13 21
+15 8 12 20 30
+Output:
+4
+5
+Explanation:
+Testcase 1: 4 is the most occuring element after considering all the ranges. So, output is 4.
+ 
+
+"
+ Count all possible paths from top left to bottom right ,"
+The task is to count all the possible paths from top left to bottom right of a mXn matrix with the constraints that from each cell you can either move only to right or down.
+Input: 
+First line consists of T test cases. First line of every test case consists of N and M, denoting the number of rows and number of column respectively.
+Output: 
+Single line output i.e count of all the possible paths from top left to bottom right of a mXn matrix. Since output can be very large number use %10^9+7.
+Constraints:
+1<=T<=100
+1<=N<=100
+1<=M<=100
+Example:
+Input:
+1
+3 3
+Output:
+6
+**For More Examples Use Expected Output**
+
+"

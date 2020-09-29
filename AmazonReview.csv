@@ -1,0 +1,1041 @@
+Title,Problem
+"<h1 class=""entry-title"">Amazon Interview experience | Set 128 (For SDET)</h1>","
+I was interviewed for the position of SDET-1 few days back at Chennai. Here is my interview experience: 
+Coding  round (Full code required):
+1) Given a linked list. Check whether it is a palindrome (without using  any extra space).
+2) Write a program to return the mirror tree of a given binary tree.
+3) Given a 2-D array, Rotate it by 90 degrees.
+F2F-I:
+1) Given a phone number. Check whether it is unique or not(ie no duplicates)
+I gave a o(n^2) TC algo first which he wanted to optimize. After 3 series of optimization ,I came up with a  o(n) solution with o(1) space complexity.
+2) The interviewer told me to code a level order traversal in a binary tree.
+3) An array of numbers are given such that the absolute difference between adjacent elements is 1.Given a value…Return the index of the 1st occurrence of that element.
+I gave an solution where in the 1st value is subtracted from the search value and hops in the array by that difference. if the reached value is the search value ,then return the index or just continue this process. The interviewer was impressed by my solution and told me to code it.
+
+F2F-2:
+1) Brief discussion of work in current company
+2) A given  array represents a tree in such a way that the array value gives the parent node of that particular index.The value of the root node index would always be -1.Find the height of the tree.
+
+    Ex: Array: 1 5 5 2 2 -1 3
+         5 
+        /  \
+       1    2
+      /    / \
+     0    3   4
+         /
+        6 
+        I gave a iterative solution which was told to be optimized. I did optimize it using memorization concept. I had to code it too.
+3) Write a program to find the median of 2 sorted arrays when merged.
+This problem is there in geeksforgeeks.
+4)Write an optimised  program to find the number of factors for a particular number
+This was a very simple qn.
+F2F-3:
+1) Brief discussion of work in current company. Why Amazon?
+2) Why do you want to leave current company? What do you like most and dislike most about your current company?
+3) Design a automation framework to test a simple site with a login page .Give the various test cases also that should be considered. Later they told me to give some  enhancements to the code too.
+4) Design a automation framework to test twitter api’s that is used in a particular site .
+5)Give the various automation scripts and tools that I implemented in my current project.
+F2F-4(Hiring Manager):
+1) Lots of HR, behavioral and team fit questions
+2) Describe the most challenging project I have worked on…and why is it challenging.
+3) An e-commerce site has a particular functionality created by a group A and another functionality created by group B. Design a testing framework that could test the work by A as well as A/\B(intersection).
+4) I was working  as a security Analyst.So I was asked about 5 critical hacking techniques that can be used to a e-commerce site and describe each.
+F2F-5(Bar raiser):
+ 1)Again behavioral and team fit questions.
+2)Write a program to check the validity  of  sorting algorithms used to sort Linked lists.Consider the case where 2 nodes have equal values too.
+I gave a optimized code using hash table concept. The interviewer was pretty satisfied with my coding ability and started asking me about my projects.
+3)More questions on my projects
+Thank you geeksforgeeks for helping me out during my preparation.
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks
+
+
+
+All Practice Problems for Amazon !
+
+
+
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:Microsoft Interview Experience Set 128 | (On-Campus for Internship)Amazon interview Experience | Set 130 (For SDET 1)Amazon interview Experience | Set 131 (For SDET 1)Amazon Interview Experience | Set 182 (For SDET 1)Amazon Interview Experience | Set 252 (For SDET)Amazon Interview Experience | Set 263 (For SDET)Amazon interview Experience | Set 413 (SDET-1 On-Campus Internship)Amazon Interview Experience | Set 414 (For SDET-1)Amazon Interview Experience | Set 432 (SDET Off – Campus)Amazon Interview Experience | SDET (Off-Campus 2020)Amazon Interview | Set 51 (On-campus for SDET)Flipkart Interview Experience | Set 19 (For SDET)Snapdeal Interview Experience | Set 13 (On-Campus for SDET)Quikr Interview Experience | Set 2 (For SDET)SnapDeal Interview Experience | Set 17 (For SDET)RazorPay Interview Experience | Set 1 (Senior SDET Role)Sprinklr Interview Experience | Set 4 (For SDET)JP Morgan Interview experience | SDET Role for ExperiencedFlipkart Interview | Set 14 (For SDET-1)Amazon Interview Experience | Set 167 (SDE I for 1 year 6 months experience)
+
+Article Tags : Interview ExperiencesAmazon
+Practice Tags :  Amazon 
+
+thumb_up
+1
+
+
+
+To-do
+
+Done
+
+
+
+3.5
+
+
+Based on 2 vote(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">Amazon Interview Experience | SDET (Off-Campus 2020)</h1>","
+I got to know about the open role through my college placement team. I later contacted the Amazon APAC recruiter on LinkedIn and forwarded my resume stating my interest in the role. the role for which hiring was begin done was Software Development Engineer in Test. 
+I along with 5 students in my department heard back from the recruiter and we were provided with an online test link. 
+The online test was begin held on mettle platform and had 2 coding questions and 20 MCQ’s. the coding questions we easy-medium level and MCQ’s covered ds/algorithm, c language, and OS concepts. 
+for clearing the online test I would recommend to regularly practice competitive programming and participate in ongoing contests 
+I cleared the online test and was further instructed that I will be having my first round in next 2 days. 
+Round 1: 
+The interview was being conducted online on the amazon chime platform. I was asked to introduce my self by the interviewer and then I was asked two coding questions 
+problem 1 – https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ 
+I was supposed to clearly explain all the approaches that I was thinking about and also time and space complexity were asked. 
+the interviewer was from java background and I coded in CPP so explaining syntaxes was also important. 
+Round 2: 
+This was design round and a design problem followed by a graph problem was asked 
+design problem asked to me – https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ 
+then I was asked – Number of connected components in an undirected graph 
+design problem asked that was asked to my friend – https://www.geeksforgeeks.org/implement-a-dictionary-using-trie/ further asked to modify the code to also support https://www.geeksforgeeks.org/auto-complete-feature-using-trie/ 
+Round 3: 
+This round was project discussion round and then question-related to core CS concepts were asked.  
+The interviewer asked why did I choose to build the project and the difficulties that arose while building the project and how I overcame that. also, questions like why did I choose a certain language or framework was asked. 
+Then question on OS – deadlock conditions and avoidance and some questions on DBMS were asked. 
+Round 4 : 
+This was bar raiser round and the interview was being conducted by an engineering manager or someone at a higher position. 
+question asked – https://leetcode.com/problems/odd-even-linked-list/ 
+question asked that was asked to my friend – https://leetcode.com/problems/find-median-from-data-stream/. Also, the whole approach was also asked and was asked to explain why does the algorithm work. 
+The overall interview process was very smooth but giving an interview online requires some preparation. The questions asked in Amazon interview are standard classical problems so make sure to practise enough problems. I would recommend first solving around 150 problems on LeetCode and then depending upon the company you are interviewing for practising problems focused on those companies 
+All the best. 
+
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:Mahindra Comviva Interview Experience 2020 (Product/Software Development OffCampus)Amazon Interview Experience | SDE-1 offcampusAmazon Interview Experience Offcampus for SDE-1Amazon Interview experience | Set 128 (For SDET)Amazon interview Experience | Set 130 (For SDET 1)Amazon interview Experience | Set 131 (For SDET 1)Amazon Interview Experience | Set 182 (For SDET 1)Amazon Interview Experience | Set 252 (For SDET)Amazon Interview Experience | Set 263 (For SDET)Amazon interview Experience | Set 413 (SDET-1 On-Campus Internship)Amazon Interview Experience | Set 414 (For SDET-1)Amazon Interview Experience | Set 432 (SDET Off – Campus)Amazon Interview | Set 51 (On-campus for SDET)Flipkart Interview Experience | Set 19 (For SDET)Snapdeal Interview Experience | Set 13 (On-Campus for SDET)Quikr Interview Experience | Set 2 (For SDET)SnapDeal Interview Experience | Set 17 (For SDET)RazorPay Interview Experience | Set 1 (Senior SDET Role)Sprinklr Interview Experience | Set 4 (For SDET)JP Morgan Interview experience | SDET Role for ExperiencedIf you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.Please Improve this article if you find anything incorrect by clicking on  the ""Improve Article"" button below.
+
+Article Tags : Interview ExperiencesAmazon
+Practice Tags :  Amazon 
+
+thumb_up
+5
+
+
+
+To-do
+
+Done
+
+
+
+3
+
+
+Based on 1 vote(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">Amazon interview Experience | Set 131 (For SDET 1)</h1>","
+Amazon visited my college and offered me SDET-I position. GeeksforGeeks helped a real lot in my interview preparation. Thank you very much GeeksforGeeks!
+Here is my interview experience:
+Round 1  (On-line Coding Round on HackerRank):
+1.	Given an array of sorted integers which represent box sizes and an integer representing an item size
+    You have to find best fit box for the item (-1 in case of no box found)
+  For example:
+    Given 10,20,30,40,50,60,70  and 45
+      You have to print 50
+    Given 10,20,30,40,50,60,70  and 75
+      You have to print -1
+      Given 10,20,30,40,50,60,70  and 50
+    You have to print 50
+2.	https://www.geeksforgeeks.org/forums/topic/find-a-string-inside-a-2-dimensional-array/
+
+
+F2F 1:
+1. Given an array of integers
+you have to output sequence a1,a2,a3,a4,a5,a6,a7  such that a1a3a5a7
+    For example:
+    Given 10,20,30,40,50,60,70
+      You have to print 10, 30, 20, 50, 40, 70, 60
+At first, I gave answer using sorting. But my interviewer asked me to do this without sorting the input array, and I did it.
+2. A simple question on Tree data structure which i don’t remember.
+3. Questions related to my project.
+
+F2F 2:
+1. A matrix is given which is sorted row wise and column wise
+You have to print the sorted order.
+    For example:
+    Given
+       1 2 3 4 6 8
+       2 3 3 4 7 8
+       2 3 4 5 7 8
+       2 3 4 5 8 8
+       3 4 4 6 8 9
+       4 5 5 7 8 9
+    You have to print sorted order
+2. Questions related to my project during my internship.
+F2F 3: 
+1.What happens when we type amazon.com
+Relating  to this the interviewer asked me every step in detail including all 7 layers of networks.
+Protocols like: HTTP, HTTPS, DHCP, DNS, IMAP, POP, TCP, UDP etc. Their uses and differences.
+2. Describe ACID property of a transaction (DBMS).
+Bar Raiser(Telephonic):
+1.	Given a singly linked list, write a recursive method to reverse every 3 nodes in the list.
+He asked me to inform if I have seen the question.
+And I replied : Yes sir, it is the similar question I faced in coding round of Amazon-internship last year.
+But he didn’t changed the question.
+I solved it with a silly mistake which i corrected when mentioned.
+2.	Long discussion on my internship and about the projects I have worked on.
+3.	Tell about your criticism.
+4.	3 weaknesses currently i am working.
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+All Practice Problems for Amazon !
+
+
+
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:Microsoft Interview Experience | Set 131Amazon Interview experience | Set 128 (For SDET)Amazon interview Experience | Set 130 (For SDET 1)Amazon Interview Experience | Set 182 (For SDET 1)Amazon Interview Experience | Set 252 (For SDET)Amazon Interview Experience | Set 263 (For SDET)Amazon interview Experience | Set 413 (SDET-1 On-Campus Internship)Amazon Interview Experience | Set 414 (For SDET-1)Amazon Interview Experience | Set 432 (SDET Off – Campus)Amazon Interview Experience | SDET (Off-Campus 2020)Amazon Interview | Set 51 (On-campus for SDET)Flipkart Interview Experience | Set 19 (For SDET)Snapdeal Interview Experience | Set 13 (On-Campus for SDET)Quikr Interview Experience | Set 2 (For SDET)SnapDeal Interview Experience | Set 17 (For SDET)RazorPay Interview Experience | Set 1 (Senior SDET Role)Sprinklr Interview Experience | Set 4 (For SDET)JP Morgan Interview experience | SDET Role for ExperiencedFlipkart Interview | Set 14 (For SDET-1)Amazon Interview Experience | Set 167 (SDE I for 1 year 6 months experience)
+
+Article Tags : Interview ExperiencesAmazon
+Practice Tags :  Amazon 
+
+thumb_up
+Be the First to upvote.
+
+
+
+To-do
+
+Done
+
+
+
+0
+
+
+No votes yet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">Amazon Interview Experience | Set 414 (For SDET-1)</h1>","
+I applied through an employee referral for SDET-1 position. I was interviewed at Amazon Chennai(SP Infocity).I faced 5 face to face rounds.
+On October 11th, I faced the first round which was mainly related to problem solving and coding.
+Round 1:Problem Solving and Coding Round(1 hr)
+The interviewer just started with a formal question of introduce yourself.Then she asked me about my final year project which I clearly explained and sketched it on the board.
+Then she asked me two coding questions.
+
+Simulate an android pattern lock.
+Generate all words that can be formed with the given pattern. The keypad specification is the mobile keyboard.I will explain it clearly
+
+If the given input is 2 3 6.
+2 corresponds to abc. 3 corresponds to def. 6 corresponds to mno.
+Suppose if we have to generate all combinations of 2,3,6 the output should be a set of strings
+adm,adn,ad0,bdm,bdn,bd0,…..
+I gave a recursive and an iterative solution to print the combinations.
+Then the interviewer modified the question slightly.She asked me to validate the generated strings with a dictionary.
+I gave two approaches for maintaining the dictionary. First I suggested a hash table approach which takes O(1) average time complexity for insert delete and search operations.
+Then since the generated strings have common prefixes I suggested a trie approach for the dictionary.
+The interviewer was pleased with my solution and asked me to code the solution completely.
+After a few days I had 2 face to face rounds.
+Round 2:Testing and Automation round(1 hr)
+The interviewer just started out by asking whether I had previous knowledge about testing and testing environments to which I replied no.Then we discussed about the types of testing and the different phases and the testing procedures that are associated with it. Then she asked me two simple test case generation questions.
+
+Generate all possible test cases for an add function which takes two strings as input and returns an integer which is the sum  of the two numbers that are given as string input.
+
+I gave around 10 test cases for the question as it was pretty much straight forward. And I coded a few by using JUnit testing which is really simple.
+2. Given a open file module in an editor what are the possible scenarios in which the open file module might give errors.
+I gave a list of cases which we clearly discussed about the ins and outs of each one.
+This round was quite easy since I prepared the testing part the previous day.
+Round 3:Data Structures and Algorithms Round(1hr 15 mins)
+Two guys interviewed me this round. We just started out with a formal introduction.Then they asked me two questions.
+
+Knight walk problem.
+
+Given a n*n chessboard and a knight which is placed at any one corner, Generate all possible paths following which the knight can cover all the squares.
+I started with a approach using BFS. But there was a flaw in my approach which was that the knight would not escape from a cell if all the possible points the knight can go from that given point was explored previously.
+Then I gave a solution using Backtracking.
+Start with a corner.For each and every possible point the knight can reach make recursive calls to those using a simple for loop.Once the count reaches n*n(Example in a 8*8 chessboard,if the count is 64),Print out the traversed path that can be easily maintained in an array. This solves the flaw in my previous approach as we are able to go back to the other possibilty if a dead path is reached.
+The interviewer was happy with my approach and asked me to code the solution. I coded it and then we moved on to the next question.
+2. Given a linked list find the intersection point of two linked lists which converge at a common point.
+I gave a brute force O(n^2) approach at first then optimised it to O(n) time and O(n) Space approach.Then I finally gave a O(n) time O(1) space solution by finding the absolute difference of the lengths of the two lists.Then they asked me to code the solution which was pretty much straight forward.
+After this I had the final two rounds on October 31st.
+Round 4:Hiring Manager Round(1hr)
+The interviewer asked me to brief about myself.We then settled down on my project for the first few minutes and then the interviewer asked about the interviews that I had attended earlier and how the process went through. Then he started asking about testing and the use of testing corresponding to some given scenarios. After a few minutes of discussion he asked two questions regarding data structures.
+
+Given an array of integers print the pairs that add upto a given sum.
+
+I gave a O(nlogn) approach at first to find the pairs and print them. The approach was to sort the array and keep two indexes(at each end) left and right and find whether pairs that add up to the given sum and print them until the left and right pointers cross.
+Then he asked me if I can optimize it further. I gave a O(n) approach using hashing.I maintained a hashset of integers. Put the first number in the hashset, start from the second element and for each number in the array check whether (Given sum – Current element) is present in the hashset. If so print the pair.
+2. Given a binary tree print the bottom view of it.
+After a few minutes of thinking I came up with an approach by using the horizontal distance of the nodes from the root. We have to keep note of the last node at a particular horizontal distance while traversing using level order traversal. I used a Hashtable to store the last visited node at each horizontal distance.
+This approach uses O(n) time and O(n) space.
+He then asked a puzzle.
+In a room of 30 people,find the unique number of handshakes given a condition that each one in the room should have shaken hands with everyone.
+I just used a simple logic. In a room of 2 people,there is only one unique hand shake(First person has 1 unique handshake whereas the second one has none). If we consider three people,n = 3 (A,B,C)
+A has two unique handshakes B,C.(n-1 handshakes)
+B has 1 unique handshake C.(n-2 handshakes)
+C doesn’t have any unique handshake.
+total number of handshakes = n-1 + n-2 = 2n-3  = 3.(which is the sum of first two natural  numbers)
+Similarly for n persons the unique handshakes would be the sum of first n-1 natural numbers.
+For n = 30, Total number of unique handshakes is 29*30/2  = 29*15 = 435.
+That’s a wrap. He was happy with the way I approached the solution.
+He asked if I had any questions for him. I asked about the culture and working environment at amazon.
+Round 5:Bar Raiser Round(1hr)
+Two members entered the room and introduced themselves and we just started out with my introduction and my project.
+They asked me how many rounds I had before the current one. They just asked a few questions about testing at first.Then they asked two coding questions.
+
+Given a binary tree print the Kth largest element in it.
+
+I just instantly started with a brute force solution by finding the inorder traversal of the tree.Then sort the array and find the kth largest in the sorted array which is the (n-k)th element from the start index of the array,where n is the total number of nodes in the tree.This uses O(nlogn) time and O(n) space.
+They asked me to optimize it further.
+I gave a O(nlogn) time and O(1) space solution by converting the binary tree into doubly linked list and then finding the kth largest in a doubly linked list which can be done in O(nlogn) time.
+But there is a better solution for this which I couldn’t think of during the interview.Just construct a minheap of k elements,Insert elements into the heap by traversing the tree using any traversal.
+If the heap root element is smaller than the current node in the tree remove the root element from heap and insert the  new element to the heap. At last after the complete traversal of the tree the kth largest element will be at the root of the heap.This uses O(nlogk) time and O(k) space.
+But they were happy with my approach as they said me to optimise it either by space or time. I gave a constant space approach so they were satisfied.
+2.Given a directed graph, find whether there exists a cycle or not.If it does exist print it.
+I gave a solution using BFS. I put a node in the queue and then added all possible nodes that can be reached from the current node. While we traverse the nodes we just mark the node as visited in the hashmap in order to avoid indefinite looping between nodes. They were satisfied with my approach.
+Finally they asked how HashMap is implemented and how it works(especially how hashcode and index are computed). I designed my own hash function and explained the way get and put functions work in a hashmap. They were happy with my explanation and then they asked how would you modify your hash function in case of collision and discussed in brief about collision handling techniques.
+They asked if I had any questions for them. I just asked the same question I asked the previous round.
+P.S: For each question we have to write the code clearly. Don’t just dive straight into the coding part, explain your approach clearly. Be confident and they don’t want the optimized solution for the question,they see how the candidate approaches the question.
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:Amazon Interview Experience | Set 167 (SDE I for 1 year 6 months experience)Amazon Interview Experience | Set 241 (1.5 years experience)Amazon Interview Experience | Set 242 (1 Year Experience)Amazon Interview Experience | Set 243 (2.5 Years Experience)Amazon Interview Experience | Set 248 (4.8 Yrs Experience for SDE II)Amazon Interview Experience | Set 391 (SDE-2, 5.5 years Experience)Amazon Interview Experience SDE-1 | Amazon-WOW 2020Amazon SDE-1 Interview Experience | Amazon WOW-2020Amazon Interview Experience for SDE-1 | Amazon-WOW 2020Amazon Interview Experience | Set 180 (Telephonic Interview )Amazon Interview Experience | Set 249 (Telephonic Interview)Amazon Interview Experience | 401 (3+Years Experience for SDE II)Amazon Interview Experience (For Experience - 2.8 yrs) | SDE 1Amazon Interview Experience (SDE-1, 8 month experience, Refferal)Amazon Interview Experience | Set 287 (On-Campus)Amazon Interview Experience | Set 189 (For SDE-1)Amazon Interview Experience | Set 185 (For SDE1)Amazon Interview experience | Set 126 (For SDE-1)Amazon Interview experience | Set 127 (For Internship)Amazon Interview experience | Set 128 (For SDET)If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.Please Improve this article if you find anything incorrect by clicking on  the ""Improve Article"" button below.
+
+Article Tags : Interview ExperiencesQueueAmazonBFS
+Practice Tags :  AmazonQueueBFS 
+
+thumb_up
+Be the First to upvote.
+
+
+
+To-do
+
+Done
+
+
+
+3.5
+
+
+Based on 4 vote(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">Amazon telephonic interview questions for SDE 1</h1>","
+Ques1. Find top 10 selling product given the count of sales of each product.
+Ques2. Design a valet parking lot with basic use-case of assigning ticket to customer and retrieving the car later. Three sizes available. Use best fit and nearest distance.
+If you like GeeksforGeeks and wold like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+All Practice Problems for Amazon !
+
+
+
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:D E Shaw Interview | Set 8 (Telephonic Round Questions)Google Interview Experience | Telephonic (SDE)Amazon Interview Experience | Set 180 (Telephonic Interview )Amazon Interview Experience | Set 249 (Telephonic Interview)Amazon Interview Experience (Telephonic Interview)Tower Research LLC Interview Experience | Set 1 (Telephonic Round for Internship)Microsoft Interview Experience | Set 78 (Telephonic for IT)Sonetel Interview Experience | Set 1 (Telephonic Round)Goldman Sachs Interview Experience - TelephonicAmazon Interview Experience SDE-1 | Amazon-WOW 2020Amazon SDE-1 Interview Experience | Amazon WOW-2020Amazon Interview Experience for SDE-1 | Amazon-WOW 2020Amazon Interview -SDE 1 Interview ExperienceAmazon Interview Questions | Set 146Amazon Interview Questions | Set 147Amazon Interview QuestionsAmazon’s most frequently asked interview questions | Set 2Amazon Interview Experience | Set 189 (For SDE-1)Amazon Interview | Set 38 (SDE-I)Amazon Interview | Set 39 (SDE)
+
+Article Tags : Interview ExperiencesAmazon
+Practice Tags :  Amazon 
+
+thumb_up
+1
+
+
+
+To-do
+
+Done
+
+
+
+4
+
+
+Based on 1 vote(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">Amazon Interview Experience | Set 432 (SDET Off – Campus)</h1>","
+My friend in Amazon referred me for the job . I was approached by the HR and after lots of delay (1 month), I was scheduled a Telephonic Interview.
+Round 1: (Telephonic Interview ) – 1h 
+A screen was shared (Notepad) where I will be writing codes and doing other rough work. I was doing conversation with him on phone.
+
+Given n sized stairs and we can take 2 or 3 steps at a time. How many ways are there to climb the stairs? Question was pretty straight forward. I was able to answer quickly. Count ways to reach the n’th stair 
+Given an array with adjacent numbers differing by an absolute value of 1. A number is given and we have to search it (They do not expect the trivial linear search O(n) ). I was able to figure out the algorithm for it pretty quickly. 
+Given a time  hh:mm format. We have the find out the bigger angle between the hour and minute hands. I took some time to figure out the formula for it and had to show the derivation of the formula to the interviewer on the screen.  
+This was a testing related question. The amazon site (some specific functionality) was working very well one day before but because of something, that functionality is slow and customers are complaining. I had to tell how will I debug this.
+
+The interviewer was pretty impressed by my coding skills but not so much with my testing skill (I guess :P). Anyways, I got the call for my next rounds. There were four of them at Hyderabad itself. Amazon took care of all the travelling and stay (Awesome nah :D)
+Round 2: (Software development Manager 1 ) : 45 mins
+Asked questions like:
+
+About myself and went through my CV
+Why I am ready for testing (because my CV displayed Developer kind of profile)
+Biggest challenge faced in my one year of job and how I fixed it.
+Testing question: Given a web page with a text box where we can write what html component to display and it will display on the screen. I had to test this and also had to write code for one of the test cases.
+Some new tool/technology that I have learned in very less time and applied .
+
+Round 3: (Software development Manager 2) : 1h
+Asked questions like:
+
+About myself and went through my CV
+Why I am ready for testing (because my CV displayed Developer kind of profile)
+About my project, my role in that. That interviewer was going very deep into the tools/technologies used in it. Anyways I was able to explain well.
+Testing question: Test an API (from one of my projects (test cases)).
+Test whether maps are working right or not.
+
+Round 3: (Software development Engineer) : 1h
+Asked coding questions (Nailed it AF):
+
+Convert a binary search tree to Greater sum tree.  Asked both recursive and iterative solutions.
+Print a matrix in spiral order. 
+Given two arrays. One is for tasks (Processes) and each element depicts the amount of cores required to run the task. 2nd array is an array of CPU where each element depicts the no of cores in it.We have to tell how many maximum number of tasks can be allocated.  Example: Task:  [3, 5, 7], Cores: [1, 3, 5] . Here only task 0 and 1 can be allocated to CPU 1 and 2 . So, answer=2.
+
+Round 4: (Quality Assurance Engineer) : 1h
+
+Design a framework for the testing the Cart service of Amazon.  We can  Add, delete and update the elements in the cart.
+Write unit test cases to test an add Address page in Amazon.
+What advice as an SDET will I give to a developer and what precautions will I take.
+
+Well, Guess what, I was not selected for the role. They were quite impressed by my coding skills and not so much with my testing skills. Fair enough !
+Tips for Aspirants: Study geeks well (mostly the Data structures part and in Algo mostly the DP part). Go through other interview experience of Amazon . https://www.geeksforgeeks.org/amazon-interview-preparation/  For testing, I don’t have much idea.
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:Amazon Interview Experience | Set 432 (For SDE-2)Amazon Interview Experience | SDET (Off-Campus 2020)Amazon interview Experience | Set 413 (SDET-1 On-Campus Internship)Amdocs Off Campus Interview | Set 13 (Off-Campus)Amazon Interview | Set 51 (On-campus for SDET)Amazon Interview experience | Set 128 (For SDET)Amazon interview Experience | Set 130 (For SDET 1)Amazon interview Experience | Set 131 (For SDET 1)Amazon Interview Experience | Set 182 (For SDET 1)Amazon Interview Experience | Set 252 (For SDET)Amazon Interview Experience | Set 263 (For SDET)Amazon Interview Experience | Set 414 (For SDET-1)Snapdeal Interview Experience | Set 13 (On-Campus for SDET)Amazon interview Experience | Set 129 (For SDE 1 Off-Campus)Amazon interview Experience | Set 134 (Off-Campus for SDE)Amazon interview Experience | Set 142 (Off-Campus for SDE-1)Amazon Interview Experience | Set 143 (Off-Campus for SDE-1)Amazon Interview Experience | Set 144 (Off-Campus For SDE-1)Amazon Interview Experience | Set 145 (Off-Campus)Amazon Interview Experience | Set 158 (Off-Campus)If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.Please Improve this article if you find anything incorrect by clicking on  the ""Improve Article"" button below.
+
+Article Tags : Interview ExperiencesAmazon
+Practice Tags :  Amazon 
+
+thumb_up
+Be the First to upvote.
+
+
+
+To-do
+
+Done
+
+
+
+3.5
+
+
+Based on 6 vote(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">How to Prepare for Amazon Software Development Engineering Interview?</h1>","
+Amazon… “Hire and Develop the Best”. One of the Big Four Tech Companies who cares a lot about their Leadership Principles when it comes to opening a door for a candidate in the company. Amazon is a top company according to 2018 LinkedIn Article. If you are a person who is preparing yourself to get into this company, you might be definitely aware of the importance of Data Structures and Algorithms for interview preparation. 
+
+There is no doubt that this one is a must-have skill to apply for the job of SDE or software engineer role in Amazon or any other big tech company. Hiring procedures in these companies are kind of similar but we are going to share some specific detail, tips, preparation strategy and evaluation process of Amazon to crack the interview. Keep in mind that the difficulty level of these rounds depends on the level of SDE position you are applying and you can prefer any programming language you are comfortable with.
+Important Points to Keep in Mind: 
+
+Amazon give higher weight and has a standardized script for Leadership Principles throughout the interview. It has a much stronger focus on customer obsession. So go through their leadership principles carefully if you are applying there.
+Do some background research on the company. What’s the company doing right now or what’s the market scenario or technology they are working on currently. That shows your interest in the company and this is a good way to judge a person how much a candidate is interested in the company.
+Interviewers are trained to not react to your answers so don’t expect yes or no answer from them that if you are heading in the right direction or not. This sucks but is a very effective way of assessing a candidate so prepare yourself to see stone-cold faces.
+Amazon conducts Bar Raiser round during onsite interview and in this round, they make sure that you as a candidate raise the bar for certain competencies, which means that you should be better than 50% of the people that are currently in that level.
+Amazon’s interview questions/difficulty levels are less consistent vs. Google or Facebook.
+
+Now it’s time to discuss the strategy and rounds that Amazon conducts for the hiring procedure. But before that keep in mind a quick tip that works in every company…Your goal is to write just the right amount of good code and communicate well. You’re not paid to code, you’re paid to think, figure out problems and give the solution. To crack any technical interview all you just need is a laptop, a working internet connection, will to solve problems regularly and within a few months, you can learn the essentials.
+The interview procedure in Amazon kind of similar to other big tech companies so let’s discuss that…
+Sending Application: Getting a call from Amazon for an interview is not easy if you don’t have any referral. Your chances to get the interview call is more if you have a connection with an employee there. If you don’t have we highly recommend making connection with hiring managers or recruiters via LinkedIn. Also, focus on your CV when you are applying for the job. Make it short, precise because none of the recruiters has more than 15 seconds to scan a CV. Write down only those things you are comfortable with, do not fake anything because the interviewer can spot that easily during the interview.. Below is the link for the guidelines of CV.
+1. Resume Building – Resources and Tips
+2. How to write an awesome and unique CV.
+Screening Interview: Shall we invite this candidate for the full loop? To filter out a lot of candidates Amazon conduct this round and this round saves a lot of time and resources of the company. So there will be 1-2 screening rounds before the onsite interview. The screening round could be telephonic or you will be asked to complete a coding challenge where you need to write clean, good and bug-free code and that should be also optimized. This round consists of basic to medium level data structures and algorithms questions, you will have some online document to write down your code and that will be visible to your interviewer. It can have a 2-3 coding question. Below is the point to keep in mind for an online coding challenge or telephonic interview.
+
+Telephonic round is not designed to be very difficult, the meet of the challenge is to be delivered at the on-site interview.
+Amazon HR’s are pretty flexible with the phone interview so generally, you can postpone the phone interview by a week to prepare yourself. 
+Don’t bother much about Dynamic Programming or Leetcode hard questions for telephonic interviews.
+Concentrate more on Binary Trees and Binary Search Trees. Learn how to traverse the binary tree in a different order, how to apply BFS and DFS to binary trees. You should know how to construct the tree from a given array. These questions will help you to provide you the basic foundation for any binary tree problems.
+Check Arrays and Stacks related questions on Leetcode and GeeksforGeeks. Also, take a glance at the Linked List related questions on Leetcode and GeeksforGeeks.
+For phone screens, concentrate on data structures and algos for about 70% and LP’s (Leadership Principles) 30%. 
+Their typical response times are anywhere between 1 day to a week. Within a week they should definitely get back with the results. In case someone fails to contact you then send an email after a week. Also, check the link Amazon Phone Interview  for more idea.
+
+Onsite Interview: Once you get selected in the previous round, you will be invited for a loop that will take one full day, consisting of about four to five separate interviews and each of these interviews takes roughly an hour. All these rounds will be technical with BR round (All Technical + One Managerial) at the end. The exact number of rounds depends upon how you perform in each round and the level you are applying for. Now here comes the role of DSA and CS fundamentals to check your coding and problem-solving skill. You need to prepare yourself with all your projects, internship, previous experiences and definitely your coding and problem-solving skill. 
+We are going to categorize this in the below section…
+
+Technical Coding Round (Including Projects):
+
+The candidate is tested on whether he/she can solve real-world problems using the knowledge of data structures and algorithms. The expectation is to be able to arrive at the most optimized solution to the given problem. Your ability to convey your algorithmic knowledge along with code is must.
+Below is the distribution of the types of problems that were generally encountered in an Amazon interview. This data is based on the interview experiences from Glassdoor for Amazon.
+
+Check the link How to Get a Job in Product Based Companies? to deal with in-depth technical coding question, what approach and tips you should follow during the interview.
+Check the amazon site Software Development Topics to go through all the topics for technical rounds.
+Ask all the clarifying questions, think about the Brute Force approach, optimize the solution and then write down the code. This is the simple step we recommend you to follow to solve the coding question.
+You need to be comfortable with projects you have done in your past experience or during your internship. The interviewer will throw questions from there so make sure you have complete knowledge and detail about your project to explain it to the interviewer.
+
+ 
+System Design Round:
+
+System design questions are an open-ended conversation and this round is mostly conducted with an experienced candidate where they test your overall ability to design and scale technically based systems.
+Check the link System Design Interview Questions, System Design Interview Preparation and also check GeeksforGeeks
+The interviewer usually is interested in the choice of resources like Databases, Storage, Logging; efficient algorithms of the functionalities; identifying all the data and classes that would be important to store if anything goes wrong in the system; what functionalities are exposed to the end-user and what not so that they might not screw up the whole system?; Scaling of Systems and servers involved; Use of Multithreading, messaging queues, Cache, etc.
+Have a solid grasp on various database technologies, how they scale, and how they compare, knowledge of frameworks and different technologies helps a lot in system design round.
+Amazon have a specific flavor of involving more of a web-based component in system design round.
+On a Glassdoor data set designing an e-commerce store or URL shortner service popped out frequently.
+
+ 
+Bar Raiser Round: As we have already mentioned about the Bar raiser round in Amazon where a candidate is assessed on skills and cultural fit with amazon’s customer-centric and innovative principles. Bar raisers are specially trained for this. Below is the point you need to keep in mind for this round…
+
+‘Bar raiser’ motive is to ensure the candidate is raising the bar not only for the specific team but for the whole company. Check the link Hire Like Amazon for more help.
+Amazon cares a lot about the Leadership Principle that we have already talked about. You should have stories for each principle. Expect the interviewers to probe into these questions.
+Its almost a technical round but they judge your leadership skills, your decision making power, your mistakes, your learning from your mistakes, your work and your conflicts with your team members, your initiative in the past work, your manager’s response to your work. Sometimes they give you situations and you have to answer your behavior in that situation.
+Amazon is also a place where you have to adapt quickly to changing objectives, your responses have to demonstrate that you can handle that.
+
+
+
+Interview Evaluation Criteria: After the interview a meeting is held between all the interviewers to discuss, debate, and justify their individual ratings with the Hiring Manager and HR Representative. The interviewers give the whole summary after the interview. The outcome of this meeting will be a final Inclined or Not-Inclined decision for the candidate.
+A software engineer is expected to know how to code, know when to ask for guidance, ability to articulate the thought process, approach to solving a problem and deliver results timely while maintaining a willingness to learn new processes and adapt quickly to changing roadmaps. An entry-level basic understanding of the core concepts of coding is generally all that is required and for higher-level ability to code and solve the complex problems based on experience matter a lot. 
+Tips:
+
+Make a habit to solve problems regularly specially from GeeksforGeeks, LeetCode and HackerRank.
+Take the hints. Interviewers are always helpful and they will give you precise useful hints if you get stuck. It is important to catch the hint as fast as possible and proceed with the solution. If you are not able to catch the hint it is a big red flag.
+Never say that you cannot do it. Even if there is a problem that you have not solved before or seemed that you can’t solve it, keep attacking the problem from different angles, the interviewer will give you hints. But if you would say that you can’t solve the problem it is a big red flag and you might end up getting rejected.
+Interviewer have generally a mindset while taking the interview that if he/she can work along with the candidate in his/her daily to a job or not. So makes sure that you don’t speak something which can give a red flag sign during the interview.
+Learn to “think out loud”. It’s weird but in an interview setting, the most important piece is showcasing how you’ve come to a solution or understanding why you’re doing X before Y.
+Your interviewer wants to see 3 key things in your code. It should run fast, not take up more memory than it needs to and is stable and easy to maintain. Accomplish that and you’re already ahead of most people.
+For behavioral question read about STAR method to describe a situation where you solved an issue that relates to the question; Explain the tasks you had to complete in order to solve the issue; Describe the action you took to complete the tasks; And close with the results of your efforts.
+
+Important Links:
+
+Amazon Interview Experience
+Practice for Cracking Any Coding Interview
+Cracking Technical Interviews
+Tushar Roy – Coding Made Simple
+Glassdoor Amazon Software Development Engineer Interview Questions
+Ace The Coding Interview Everytime
+Coding Interview University
+Amazon Onsite Interview Question Onsite 2019
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:How to Prepare for Microsoft Software Development Engineering Interview?Amazon Interview | Set 58 (On-campus for Software Development Engineer)Amazon Interview Experience | Set 323 (Software Development Engineer - Off-Campus)Amazon Interview Experience | Software Development Engineer IIHow to Prepare for Amazon AWS Cloud Support Associate On-Campus test?Difference between Computer Science Engineering and Computer EngineeringAmazon Written Test May 2019 Software Development Engineer I6 Tips to Prepare  Behavioural Interview QuestionsHow Should a Fresher Prepare for a Job Interview?10 Tips to Prepare for a Video Job InterviewHow to prepare for Google Asia Pacific University (APAC) Test ?How to prepare for top MNCs?How to prepare for Infosys - The Complete guideHow to prepare for Google Kickstart - a CodeJam competition?How to prepare for Facebook Hacker Cup?How to Prepare for HR InterviewsHow to prepare for eLitmus Hiring Potential Test (pH Test)How to prepare for AMCAT?How to prepare test case report for a Project?How to Prepare a Word List for the GRE General TestanuupadhyayCheck out this Author's contributed articles.If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.Please Improve this article if you find anything incorrect by clicking on  the ""Improve Article"" button below.
+
+Article Tags : GBlogAmazonInterview Tipsinterview-preparationplacement preparation
+Practice Tags :  Amazon 
+
+thumb_up
+23
+
+
+
+To-do
+
+Done
+
+
+
+4.1
+
+
+Based on 9 vote(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">Amazon interview Experience | Set 130 (For SDET 1)</h1>","
+I attended an interview with Amazon for SDET-I position, about a month back. I did not clear the interview, but I would like thank GeeksforGeeks for the great learning period before the interview. GeeksforGeeks helped a real lot in my interview preparation and in general, my understanding of data structures and algorithms got deeper and stronger. Thank you very much GeeksforGeeks and all your valuable contributors!
+Here is my interview experience:
+Telephonic 1:
+1.    Given an array and a number, check whether there are any 3 elements in the array which add up to the given number.
+  For example:
+     Given an array {1,2,3,4,5}  and the number 9, return true, as 2,3,4 add up to 9.
+     Given an array {1,2,3,4,5}  and the number 3, return false, as there are no 3 elements which add up to 3, in the array.
+2.    Given a number, find the nearest perfect square(modified binary search)
+  For example:
+        Given 50, return 49
+        Given 25, return 25
+Telephonic 2:
+1. Write a method to check whether two binary trees are mirrors of each other
+https://www.geeksforgeeks.org/check-if-two-trees-are-mirror/
+2.    Write a method to print the boundaries of a binary tree
+https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+F2F 1:
+1. Fill an array with the next greater elements (using stack)
+https://www.geeksforgeeks.org/next-greater-element/
+2. Given a binary tree, count the number of occurrences where there are two nodes with the same horizontal distance. To make it clearer, if we assume each node in a cell of a matrix, then count the number of occurrences when there is a collision of two nodes in the same cell.
+
+Here the count is 1 because 5 and 6 occupy the same cell in the matrix
+F2F 2:
+1. Given a linked list, write a program to check if it is a palindrome
+2. Write some test methods for stress testing of Furniture class
+3. Some discussion on automation testing
+
+F2F 3: (System automation design)
+System: The user gives a book id to be downloaded and the location in which the book is to be stored. The system downloads the book (if it exists) in the location given by the user and returns a url through which the user can access the book.
+I was asked to design automated test cases for the system. The interviewer kept adding more and more constraints to the system and we discussed about the pros and cons of my approach.
+Hiring Manager:
+1.    Discussion about my current job role
+2.    Several behavioral and team fit questions
+3.    What are the things you will consider (both from Developer’s perspective and User perspective) while trying to develop an application for computer aided competitive examinations like CAT, GMAT etc.
+
+Bar Raiser:
+1.    Given a singly linked list, write a recursive method to reverse every 3 nodes in the list.
+I did not write a clean code for this. He moved on because of lack of time.
+2.    Again discussion of my current job role and about the projects I have worked on.
+3.    Tell me 3 things that you want to learn/change in yourself
+4.    Again several team fit questions.
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+
+All Practice Problems for Amazon !
+
+
+
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:Microsoft Interview Experience | Set 130 (Internship)Amazon Interview experience | Set 128 (For SDET)Amazon interview Experience | Set 131 (For SDET 1)Amazon Interview Experience | Set 182 (For SDET 1)Amazon Interview Experience | Set 252 (For SDET)Amazon Interview Experience | Set 263 (For SDET)Amazon interview Experience | Set 413 (SDET-1 On-Campus Internship)Amazon Interview Experience | Set 414 (For SDET-1)Amazon Interview Experience | Set 432 (SDET Off – Campus)Amazon Interview Experience | SDET (Off-Campus 2020)Amazon Interview | Set 51 (On-campus for SDET)Flipkart Interview Experience | Set 19 (For SDET)Snapdeal Interview Experience | Set 13 (On-Campus for SDET)Quikr Interview Experience | Set 2 (For SDET)SnapDeal Interview Experience | Set 17 (For SDET)RazorPay Interview Experience | Set 1 (Senior SDET Role)Sprinklr Interview Experience | Set 4 (For SDET)JP Morgan Interview experience | SDET Role for ExperiencedFlipkart Interview | Set 14 (For SDET-1)Amazon Interview Experience | Set 167 (SDE I for 1 year 6 months experience)
+
+Article Tags : Interview ExperiencesAmazon
+Practice Tags :  Amazon 
+
+thumb_up
+1
+
+
+
+To-do
+
+Done
+
+
+
+0
+
+
+No votes yet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">Amazon Interview Experience | Set 263 (For SDET)</h1>","
+It’s an on campus recruitment. The interview process started on October, 2015.
+Round 1:
+It had 25 MCQ questions from core subjects of CS including Operating systems, Database, Networks, Data structures and algorithms, Fundamentals of programming. Apart from that there was 2 programming questions too. Those who solved at least 1 programming problem and few MCQ questions were selected for next round. But it’s better to solve both the programming questions. I was asked the following questions:
+
+Merge Two Sorted Arrays 
+Check for balanced parentheses in an expression
+
+Round 2:
+It was a phone interview of duration 1 hour. It was conducted on collabedit.com. This round consisted 2 data structures and algorithms related questions. I was asked the following questions:
+
+Write a program to print all permutations of a given string
+Reverse a linked list
+
+Round 3:
+It was similar to that of round 2. I was asked the following questions:
+
+Square root of an integer
+Nodes at given distance in binary tree
+
+Overall it was an awesome experience. I enjoyed the interview process.
+Thanks for geeksforgeeks!
+If you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+
+
+
+All Practice Problems for Amazon !
+
+
+
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:Amazon Interview experience | Set 128 (For SDET)Amazon interview Experience | Set 130 (For SDET 1)Amazon interview Experience | Set 131 (For SDET 1)Amazon Interview Experience | Set 182 (For SDET 1)Amazon Interview Experience | Set 252 (For SDET)Amazon interview Experience | Set 413 (SDET-1 On-Campus Internship)Amazon Interview Experience | Set 414 (For SDET-1)Amazon Interview Experience | Set 432 (SDET Off – Campus)Amazon Interview Experience | SDET (Off-Campus 2020)Amazon Interview | Set 51 (On-campus for SDET)Flipkart Interview Experience | Set 19 (For SDET)Snapdeal Interview Experience | Set 13 (On-Campus for SDET)Quikr Interview Experience | Set 2 (For SDET)SnapDeal Interview Experience | Set 17 (For SDET)RazorPay Interview Experience | Set 1 (Senior SDET Role)Sprinklr Interview Experience | Set 4 (For SDET)JP Morgan Interview experience | SDET Role for ExperiencedFlipkart Interview | Set 14 (For SDET-1)Amazon Interview Experience | Set 167 (SDE I for 1 year 6 months experience)Amazon Interview Experience | Set 241 (1.5 years experience)
+
+Article Tags : Interview ExperiencesAmazon
+Practice Tags :  Amazon 
+
+thumb_up
+2
+
+
+
+To-do
+
+Done
+
+
+
+2
+
+
+Based on 6 vote(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"
+"<h1 class=""entry-title"">Amazon interview Experience | Set 413 (SDET-1 On-Campus Internship)</h1>","
+This was a pool campus conducted by amazon for internship.
+Online Round: There were 20 mcq(+1 for each) and 2 coding questions(+30 for each). MCQ had more networking and DS problems.
+
+Given three linked list, add them. GeeksforGeeks Link
+Input will be of this format
+1->0->1
+8->9->9
+5
+Output: 1->0->0->5
+
+Solving above problem in python is easier than C++. I solved it in C++ using deque(30/30 points).
+
+Given an array of size n consisting of positive integers, choose three integers(not necessarily contiguous) such that they are in ascending order and their product is maximum. Input was given in this format.
+
+array = {5, 3, 6, 8, 9, 10}
+Output: array = {8, 9, 10}
+
+Many people(including me) ignored the ascending order part and got 20/30 points. Later during interview, interviewer asked me to explain my code and told me the corner case.
+Note: Input was given exactly like I said in both problems. It was a bit different from usual problems. You first have to break strings to integers then solve the problem.
+
+Round 2:
+
+Tic-Tac-Toe 
+This was on paper round. I have heard there is another easier solution using magic square. 8 were selected from this round.
+
+Round 3:
+Technical Interview Round 1
+The interview started with the most common questions “Tell me about yourself” and “Projects/Internship”. Then there were few theory questions like what is binary tree? What is binary search tree? Then 2 coding questions.
+
+Level order traversal
+Find next greater number with same set of digits
+Instead of digits, it was string of alphabets. There was a bug in my code. Interviewer gave me a test case and asked me to test it. Changed the approach and solved it by sorting. He asked which sorting and why? First I said merge sort because of nlogn complexity. Then I said since range is small(1-26), we can use count sort. He asked if we really need sorting? Then I said that reversing the second part was sufficient because it was in descending order.
+
+Round 4:
+
+Technical Interview Round 2
+Again discussion on “Tell me about yourself” and “Projects/Internship”.
+
+Maximum of all subarrays of size k 
+
+He first asked how will you solve this problem. Gave 3 different approaches. Then finally asked to write code for deque approach.
+I was asked few more theory questions from DS and DAA. Like what are some algorithmic paradigm? Difference between Greedy and DP? Questions on Dijkstra(Complexity, greedy or dp). And finally I was given a problem based on graph and was asked which algorithmic paradigm will be used to solve it? Answer was backtracking.
+Interviewers were friendly. They helped us giving hints wherever we got stuck.
+My advice is read past interview experiences from GeeksforGeeks and practice those problems on GeeksforGeeks judge. Brush up your CS fundamentals like Data structures, Algorithms, Networking and Database.
+Thank you GeeksforGeeks for helping me during my interview preparation. 🙂                                        
+
+
+All Practice Problems for Amazon !
+                                        
+
+
+
+
+ Write your Interview Experience or mail it to contribute@geeksforgeeks.org
+
+
+
+
+
+My Personal Notes
+arrow_drop_up
+
+
+
+
+
+Save
+
+
+Recommended Posts:MathWorks Interview Experience (EDG, Oncampus)ServiceNow Interview Experience OncampusUHG Interview Experience | OnCampus- 2019InfoEdge Interview Experience | OnCampus-2019Amazon Interview experience | Set 127 (For Internship)Amazon Interview Experience | Set 149 (On-Campus for Internship)Amazon Interview Experience | Set 198 (On-Campus for Internship)Amazon Interview Experience | Set 199 (On-Campus for Internship)Amazon Interview Experience | Set 204 (On-Campus for Internship)Amazon Interview Experience | Set 205 (On-Campus for Internship)Amazon Interview Experience | Set 207 (On-Campus for Internship)Amazon Interview Experience | Set 208 (On-Campus for Internship)Amazon Interview Experience | Set 211 (On-Campus for Internship)Amazon Interview Experience | Set 227 (On-Campus for Internship and Full-Time)Amazon Interview Experience | Set 228 (On-Campus for Internship)Amazon Interview Experience | Set 265 (On-Campus Internship)Amazon Interview Experience | Set 277 (On-Campus for Internship)Amazon Interview Experience | Set 279 (On-Campus for Internship)Amazon Interview Experience | Set 289 (On-Campus for Internship)Amazon Interview Experience | Set 290 (On-Campus for Internship)If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.Please Improve this article if you find anything incorrect by clicking on  the ""Improve Article"" button below.
+
+Article Tags : ArraysInternshipInterview ExperiencesLinked ListTreeAmazonpermutation
+Practice Tags :  AmazonLinked ListArrayspermutationTree 
+
+thumb_up
+1
+
+
+
+To-do
+
+Done
+
+
+
+3
+
+
+Based on 5 vote(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please write to us at contribute@geeksforgeeks.org to report any issue with the above content.
+
+"

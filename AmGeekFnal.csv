@@ -1,0 +1,1231 @@
+Title,Problem
+ Probability of Knight ,"
+Given an NxN chessboard and a Knight at position (x, y). The Knight has to take exactly K steps, where at each step it chooses any of the 8 directions uniformly at random. Find the probability that the Knight remains in the chessboard after taking K steps, with the condition that it can’t enter the board again once it leaves it.
+ 
+Example 1:
+
+Input : N = 8, x = 0, y = 0, K = 3
+Output: 0.125000
+
+Example 2:
+
+Input: N = 4, x = 1, y = 2, k = 4
+Output: 0.024414
+
+ 
+Your Task: 
+You don't need to read or print anything. Your task is to complete the function findProb() which takes N, x, y and K as input parameter and returns the probability.
+ 
+Expected Time Complexity : O(N 3)
+Expected Space Complexity: O(N3)
+ 
+Constraints:
+1 <= N <= 100
+0 <= x, y <= N
+0 <= K <= N
+
+"
+ Twice Counter ,"
+Given a list of N words. Count the number of words that appear exactly twice in the list.
+Example 1:
+
+Input:
+N = 3
+list = {Geeks, For, Geeks}
+Output: 1
+Explanation: 'Geeks' is the only word that 
+appears twice. 
+Example 2:
+
+Input:
+N = 8
+list = {Tom, Jerry, Thomas, Tom, Jerry, 
+Courage, Tom, Courage}
+Output: 2
+Explanation: 'Jerry' and 'Courage' are the 
+only words that appears twice. 
+
+Your Task:  
+You dont need to read input or print anything. Complete the function countWords() which takes integer N and list of strings as input parameters and returns the number of words that appear twice in the list.
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(N)  
+
+Constraints:
+1<= N <= 104
+ 
+
+"
+ Common Subsequence ,"
+Given two strings a and b. Check whether they contain any common subsequence (non empty) or not.
+Example 1:
+
+Input:
+a = ""ABEF"" b = ""CADE""
+Output: 1
+Explanation: Subsequence ""AE"" occurs
+in both the strings.
+
+
+â€‹Example 2:
+
+Input: 
+a = ""ABCD"", b = ""EFGH""
+Output: 0
+Explanation: There's no common subsequence
+in both the strings.
+
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function commonSubseq() which takes the string a and string b as inputs and returns true if there's a common subsequence in both the strings. Else, it returns false.
+
+Expected Time Complexity: O(|a| + |b|).
+Expected Auxiliary Space: O(1).
+
+Constraints:
+2 <= |a|, |b| <=105
+ 
+
+"
+ Element appearing once ,"
+Given a sorted array A[] of N positive integers having all the numbers occurring exactly twice, except for one number which will occur only once. Find the number occurring only once.
+Example 1:
+
+Input:
+N = 5
+A = {1, 1, 2, 5, 5}
+Output: 2
+Explanation: Since 2 occurs once, while
+             other numbers occur twice, 
+             2 is the answer.
+Example 2:
+
+Input:
+N = 7
+A = {2, 2, 5, 5, 20, 30, 30}
+Output: 20
+Explanation: Since 20 occurs once, while
+             other numbers occur twice, 
+             20 is the answer.
+User Task:
+Your task is to complete the function search() which takes 2 arguments(array A and N) and returns the number occurring only once.
+Expected Time Complexity: O(Log(N)).
+Expected Auxiliary Space: O(1).
+Constraints
+0 <   N  <= 10^6
+0 <= A[i] <= 10^9
+
+"
+ Digit multiplier ,"
+Given a positive integer N, find the smallest number S such that the product of all the digits of S is equal to the number N. If there's no such number, Print ""-1"".
+ 
+Example 1:
+
+Input:
+N = 100
+Output:
+455
+Explanation:
+4*5*5 = 100. There are no numbers
+less than 455 with the product of
+it's digit as 100.
+Example 2:
+
+Input:
+N = 26
+Output:
+-1
+Explanation:
+There are no numbers which can form
+a product of 26 with its digits.
+ 
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function getSmallest() which takes an Integer N as input and returns the answer as a String.
+ 
+Expected Time Complexity: O(log(N))
+Expected Auxiliary Space: O(1)
+ 
+Constraints:
+1 <= N <= 109
+
+"
+ Uncommon characters ,"
+Given two strings A and B. Find the characters that are not common in the two strings. 
+Example 1:
+
+Input:
+A = geeksforgeeks
+B = geeksquiz
+Output: fioqruz
+Explanation: 
+The characters 'f', 'i', 'o', 'q', 'r', 'u','z' 
+are either present in A or B, but not in both.
+Example 2:
+
+Input:
+A = characters
+B = alphabets
+Output: bclpr
+Explanation: The characters 'b','c','l','p','r' 
+are either present in A or B, but not in both.
+
+Your Task:  
+You dont need to read input or print anything. Complete the function UncommonChars() which takes strings A and B as input parameters and returns a string that contains all the uncommon characters in sorted order. If no such character exists return ""-1"".
+
+Expected Time Complexity: O(M+N) where M and N are the sizes of A and B respectively.
+Expected Auxiliary Space: O(M+N)  
+
+Constraints:
+1<= M,N <= 104
+String may contain duplicate characters.
+ 
+
+"
+ Sum of two large numbers ,"
+Given two non-negative numbers X and Y. The task is to calculate the sum of X and Y. 
+Example1:
+
+Input: X = ""25"", Y = ""23""
+Output: 48
+Explanation: The sum of 25 and 23 is 48
+Example1:
+
+Input: X = ""2500"", Y = ""23""
+Output: 2523
+Explanation: The sum of 2500 and 23 is 2523
+Your Task:
+Your task is to complete the function findSum() which takes two strings as inputs and returns the string without leading zeros. You do not need to take any input or print anything.
+Expected Time Complexity: O(|X| + |Y|)
+Expected Auxiliary Space: O(1)
+Constraints:
+1 <= |X|, |Y| <= 105
+
+"
+ Substrings with similar first and last characters ,"
+Given string s, the task is to find the count of all substrings which have the same character at the beginning and end.
+Example 1:
+
+Input: s = ""abcab""
+Output: 7
+Explanation: a, abca, b, bcab, 
+c, a and b
+Example 2:
+
+Input: s = ""aba""
+Output: 4
+Explanation: a, b, a and aba
+User Task:
+Your task is to complete the function countSubstringWithEqualEnds() which takes a single string as input and returns the count. You do not need to take any input or print anything.
+Expected Time Complexity: O(|str|)
+Expected Auxiliary Space: O(constant)
+Constraints:
+1 <= |s| <= 104
+s contains lower case english alphabets
+
+"
+ Count Substrings ,"
+Given a binary string S. The task is to count the number of substrings that starts and end with 1.
+Note: The starting and the ending 1s should be different.
+Example 1:
+
+Input:
+S = ""10101""
+Output: 3
+Explanation: The 3 substrings are ""101"",
+""10101"" and ""101"".
+
+
+â€‹Example 2:
+
+Input: 
+S = ""100""
+Output: 0
+Explanation: No substring that starts and
+ends with 1.
+
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function countSubstr() which takes the string S as input and returns the count of the substrings that start and end with 1.
+
+Expected Time Complexity: O(|S|).
+Expected Auxiliary Space: O(1).
+
+Constraints:
+1 <= |S| <= 1000
+ 
+
+"
+ Add Binary Strings ,"
+Given two binary strings A and B consisting of only 0s and 1s. Find the resultant string after adding the two Binary Strings.
+Note: The input strings may contain leading zeros but the output string should not have any leading zeros.
+Example 1:
+
+Input:
+A = ""1101"", B = ""111""
+Output: 10100
+Explanation:
+ 1101
++ 111
+10100
+
+â€‹Example 2:
+
+Input: 
+A = ""10"", B = ""01""
+Output: 11
+Explanation: 
+  10
++ 01
+  11
+
+
+User Task:
+You don't need to read input or print anything. Your task is to complete the function addBinary() which takes 2 binary string A and B and returns a binary string denoting the addition of both the strings.
+
+Expected Time Complexity: O(max(|A|, |B|)).
+Expected Auxiliary Space: O(max(|A|, |B|)) (for output string).
+
+Constraints:
+1 <= |A|, |B| <= 1000000
+ 
+
+"
+ Two numbers with sum closest to zero ,"
+Given an integer array of N elements. You need to find the sum of two elements such that sum is closest to zero.
+Example 1:
+
+Input:
+N = 3
+arr[] = {-8 -66 -60}
+Output: -68
+Explanation: Sum of two elements closest to 
+zero is -68 using numbers -60 and -8.
+
+â€‹Example 2:
+
+Input: 
+N = 6
+arr[] = {-21 -67 -37 -18 4 -65}
+Output: -14
+Explanation: Sum of two elements closest to
+zero is -14 using numbers -18 and 4.
+
+Your Task:
+You don't need to read input or print anything. You just need to complete the function closestToZero() which takes an array arr[] and its size n as inputs and returns the sum closest to zero that can be formed by summing any two elements in the array.
+
+Expected Time Complexity: O(NlogN).
+Expected Auxiliary Space: O(1).
+
+Constraints:
+1 ≤ N ≤ 103
+-106 ≤ a[i] ≤ 106
+ 
+
+"
+ Find the element that appears once in sorted array ,"
+Given a sorted array arr[] of size N. Find the element that appears only once in the array. All other elements appear exactly twice. 
+Example 1:
+
+Input:
+N = 11
+arr[] = {1, 1, 2, 2, 3, 3, 4, 50, 50, 65, 65}
+Output: 4
+Explanation: 4 is the only element that 
+appears exactly once.
+ 
+Your Task:  
+You don't need to read input or print anything. Complete the function findOnce() which takes sorted array and its size as its input parameter and returns the element that appears only once. 
+
+Expected Time Complexity: O(log N)
+Expected Auxiliary Space: O(1)
+ 
+Constraints:
+-105 <= N <= 105
+
+"
+ Angle between hour and minute hand ,"
+Calculate the angle between hour hand and minute hand. 
+Note: There can be two angles between hands, we need to print minimum of two. Also, we need to print floor of final result angle. For example, if the final angle is 10.61, we need to print 10.
+ 
+Example 1:
+
+Input:
+H = 9 , M = 60
+Output:
+90
+Explanation:
+The minimum angle between hour and minute
+hand when the time is 9 is 90 degress.
+Example 2:
+
+Input:
+H = 3 , M = 30
+Output:
+75
+Explanation:
+The minimum angle between hour and minute
+hand when the time is 3:30 is 75 degress.
+ 
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function getAngle() which takes 2 Integers H and M as input and returns the answer.
+ 
+Expected Time Complexity: O(1)
+Expected Auxiliary Space: O(1)
+ 
+Constraints:
+1 <= H <= 12
+1 <= M <= 60
+H and M are Integers
+
+"
+ Palindrome String ,"
+Given a string S, check if it is palindrome or not.
+Example 1:
+
+Input: S = ""abba""
+Output: 1
+Explanation: S is a palindrome
+Example 2:
+
+Input: S = ""abc"" 
+Output: 0
+Explanation: S is not a palindrome
+
+ 
+Your Task:  
+You don't need to read input or print anything. Complete the function isPlaindrome() which accepts string S and returns a boolean value
+
+Expected Time Complexity: O(Length of S) 
+Expected Auxiliary Space: O(1) 
+
+Constraints:
+1 <= Length of S <= 105
+
+"
+ String formation from substring ,"
+Given a string ‘s’, the task is to check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.  
+Example 1:
+
+Input: s = ""ababab""
+Output: 1
+Explanation: It is contructed by 
+appending ""ab"" 3 times
+Example 2:
+
+Input: s = ""ababac""
+Output: 0
+Explanation: Not possible to construct
+User Task:
+Your task is to complete the function isRepeat() which takes a single string as input and returns 1 if possible to construct, otherwise 0. You do not need to take any input or print anything.
+Expected Time Complexity: O(|s|)
+Expected Auxiliary Space: O(|s|)
+Constraints:
+1 <= |s| <= 105
+
+"
+ Print first letter of every word in the string  ,"
+
+Given a string S, the task is to output a string with the first letter of every word in the string.
+ 
+Example 1:
+
+Input: geeks for geeks
+Output: gfg
+Explanation: First alphabet of every word 
+required.
+Example 2:
+
+Input: bad is good
+Output: big
+Explanation: First alphabet of every word 
+required.
+User Task:
+Your task is to complete the function firstAlphabet() which takes a single string as input and returns the string. You need not take any input or print anything.
+Expected Time Complexity: O(|S|)
+Expected Auxiliary Space: O(|S|)
+Constraints:
+1 <= |S| <= 105
+S contains lower case English alphabets
+Words have a single space between them. 
+
+
+"
+ Closest Strings ,"
+Given a list of words followed by two words, the task to find the minimum distance between the given two words in the list of words
+Example 1:
+
+Input:
+S = { ""the"", ""quick"", ""brown"", ""fox"", 
+     ""quick""}
+word1 = ""the""
+word2 = ""fox""
+Output: 3
+Explanation: Minimum distance between the 
+words ""the"" and ""fox"" is 3
+
+
+Example 2:
+
+Input:
+S = {""geeks"", ""for"", ""geeks"", ""contribute"", 
+     ""practice""}
+word1 = ""geeks""
+word2 = ""practice""
+Output: 2
+Explanation: Minimum distance between the
+words ""geeks"" and ""practice"" is 2
+
+
+
+Your Task:  
+You don't need to read input or print anything. Your task is to complete the function 
+shortestDistance() which list of words, two strings as inputs and returns the minimum distance between two words
+
+Expected Time Complexity: O(|S|)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+Sum of lengths of words ≤ 105
+
+Note: word1 and word2 are both in the list.
+
+"
+ Swapping pairs make sum equal ,"
+Given two arrays of integers A[] and B[] of size N and M, the task is to check if a pair of values (one value from each array) exists such that swapping the elements of the pair will make the sum of two arrays equal.
+ 
+Example 1:
+
+Input: N = 6, M = 4
+A[] = {4, 1, 2, 1, 1, 2}
+B[] = (3, 6, 3, 3)
+Output: 1
+Explanation: Sum of elements in A[] = 11
+Sum of elements in B[] = 15, To get same 
+sum from both arrays, we can swap following 
+values: 1 from A[] and 3 from B[]
+Example 2:
+
+Input: N = 4, M = 4
+A[] = {5, 7, 4, 6}
+B[] = {1, 2, 3, 8}
+Output: 1
+Explanation: We can swap 6 from array 
+A[] and 2 from array B[]
+Your Task:
+This is a function problem. You don't need to take any input, as it is already accomplished by the driver code. You just need to complete the function findSwapValues() that takes array A, array B, integer N, and integer M as parameters and returns 1 if there exists any such pair otherwise returns -1.
+ 
+Expected Time Complexity: O(MlogM+NlogN).
+Expected Auxiliary Space: O(1).
+ 
+Constraints:
+1 ≤ N, M ≤ 106
+
+"
+ Faithful Numbers ,"
+A number is called faithful if you can write it as the sum of distinct powers of 7. 
+e.g.,  2457 = 7 + 72 + 74 . If we order all the faithful numbers, we get the sequence 1 = 70, 7 = 71, 8 = 70 + 71, 49 = 72, 50 = 70 + 72 . . . and so on.
+Given some value of N, you have to find the N'th faithful number.
+ 
+Example 1:
+
+Input:
+N = 3
+Output:
+8
+Explanation:
+8 is the 3rd Faithful number.
+
+Example 2:
+
+Input:
+N = 7
+Output:
+57
+Explanation:
+57 is the 7th Faithful number.
+ 
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function nthFaithfulNum() which takes an Integer N as input and returns the answer.
+ 
+Expected Time Complexity: O(log(N))
+Expected Auxiliary Space: O(log(N))
+ 
+Constraints:
+1 <= N <= 105
+
+"
+ Edit Distance ,"
+Given two strings s and t. Find the minimum number of operations that need to be performed on str1 to convert it to str2. The possible operations are:
+
+Insert
+Remove
+Replace
+
+ 
+Example 1:
+
+Input: 
+s = ""geek"", t = ""gesek""
+Output: 1
+Explanation: One operation is required 
+inserting 's' between two 'e's of str1.
+
+
+Example 2:
+
+Input : 
+s = ""gfg"", t = ""gfg""
+Output: 
+0
+Explanation: Both strings are same.
+
+ 
+Your Task:
+You don't need to read or print anything. Your task is to complete the function editDistance() which takes strings s and t as input parameters and returns the minimum number of operation required to make both strings equal. 
+ 
+Expected Time Complexity: O(n2)
+Expected Space Complexity: O(n2)
+ 
+Constraints:
+1 <= Length of both strings <= 100
+Both the strings are in lowercase.
+
+"
+ Minimize string value ,"
+Given a string of lowercase alphabets and a number k, the task is to find the minimum value of the string after removal of ‘k’ characters. 
+The value of a string is defined as the sum of squares of the count of each distinct character.
+For example consider the string “geeks”, here frequencies of characters are g -> 1, e -> 2, k -> 1, s -> 1 and value of the string is 12 + 22 + 12 + 12 = 7
+ 
+Example 1:
+
+Input: S = ""abccc"", K = 1
+Output: 6
+Explanation: Remove one 'c', then frequency
+will be a -> 1, b -> 1, c -> 2.
+12 + 12 + 22 = 6
+
+â€‹Example 2:
+
+Input: S = ""aaab"", K = 2
+Output: 2
+Explanation: Remove 2 'a's, then frequency
+will be a -> 1, b -> 1.
+12 + 12 = 2
+
+Your Task:  
+You don't need to read input or print anything. Your task is to complete the function minValue() which takes the string s as inputs and returns the answer.
+
+Expected Time Complexity: O(K*log(|S|))
+Expected Auxiliary Space: O(constant)
+
+Constraints:
+1 ≤ K, |S| ≤ 104
+
+"
+ Count the triplets ,"
+Given an array of distinct integers. The task is to count all the triplets such that sum of two elements equals the third element.
+ 
+Example 1: 
+
+Input:
+N = 4
+arr[] = {1, 5, 3, 2}
+Output: 2
+Explanation: There are 2 triplets: 
+1 + 2 = 3 and 3 +2 = 5 
+â€‹Example 2: 
+
+Input: 
+N = 3
+arr[] = {2, 3, 4}
+Output: 0
+Explanation: No such triplet exits
+Your Task:  
+You don't need to read input or print anything. Your task is to complete the function countTriplet() which takes the array arr[] and N as inputs and returns the triplet count
+
+Expected Time Complexity: O(N2)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+1 ≤ N ≤ 103
+1 ≤ arr[i] ≤ 105
+
+"
+ Count pairs with given sum ,"
+Given an array of N integers, and an integer K, find the number of pairs of elements in the array whose sum is equal to K.
+
+Example 1:
+
+Input:
+N = 4, K = 6
+arr[] = {1, 5, 7, 1}
+Output: 2
+Explanation: 
+arr[0] + arr[1] = 1 + 5 = 6 
+and arr[1] + arr[3] = 5 + 1 = 6.
+
+
+Example 2:
+
+Input:
+N = 4, X = 2
+arr[] = {1, 1, 1, 1}
+Output: 6
+Explanation: 
+Each 1 will produce sum 2 with any 1.
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function getPairsCount() which takes arr[], n and k as input parameters and returns the number of pairs that have sum K.
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(N)
+
+Constraints:
+1 <= N <= 105
+1 <= K <= 108
+1 <= Arr[i] <= 106
+ 
+
+"
+ Dice throw ,"
+Given N dice each with M faces, numbered from 1 to M, find the number of ways to get sum X. X is the summation of values on each face when all the dice are thrown.
+ 
+Example 1:
+
+Input:
+M = 6, N = 3, X = 12
+Output:
+25
+Explanation:
+There are 25 total ways to get
+the Sum 12 using 3 dices with
+faces from 1 to 6.
+Example 2:
+
+Input:
+M = 2, N = 3, X = 6
+Output:
+1
+Explanation:
+There is only 1 way to get
+the Sum 6 using 3 dices with
+faces from 1 to 2. All the
+dices will have to land on 2.
+ 
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function noOfWays() which takes 3 Integers M,N and X as input and returns the answer.
+ 
+Expected Time Complexity: O(M*N*X)
+Expected Auxiliary Space: O(N*X)
+ 
+Constraints:
+1 <= M,N,X <= 50
+
+"
+ Count zero ,"
+Given a number d, representing the number of digits of a number. Find the total count of positive integers which have at-least one zero in them and consist d or less digits.
+
+Example 1:
+
+Input: d = 2
+Output: 9 
+Explanation: There are total 9 
+positive integers which have 
+at-least one zero in them 
+and consist 2 or less digits.
+
+Example 2:
+
+Input: d = 3
+Output: 180
+Explanation: There are total 180
+positive integers which have
+at-least one zero in them
+and consist 3 or less digits.
+
+
+Your Task:  
+You dont need to read input or print anything. Complete the function findCountUpto() which takes d as input parameter and returns the total count of positive integers which have at-least one zero in them and consist d or less digits.
+
+Expected Time Complexity: O(logn)
+Expected Auxiliary Space: O(1)
+
+Constraints:
+1<= d <=15
+
+"
+ Longest Prefix Suffix ,"
+Given a string of characters, find the length of the longest proper prefix which is also a proper suffix.
+Example 1:
+
+Input: s = ""abab""
+Output: 2
+Explanation: ""ab"" is the longest proper 
+prefix and suffix. 
+Example 2:
+
+Input: s = ""aaaa""
+Output: 3
+Explanation: ""aaa"" is the longest proper 
+prefix and suffix. 
+Your task:
+You do not need to read any input or print anything. The task is to complete the function lps(), which takes a string as input and returns an integer. 
+Expected Time Complexity: O(|str|)
+Expected Auxiliary Space: O(|str|)
+Constraints:
+1 ≤ |s| ≤ 105
+s contains lower case English alphabets
+
+"
+ Find k-th character in string ,"
+Given a decimal number m. Convert it into a binary string and apply n iterations, in each iteration 0 becomes 01, and 1 becomes 10. Find the kth (1-indexing) character in the string after nth iteration.
+Example 1:
+
+Input: m = 5, n = 2, k = 5
+output: 0
+Explanation: Binary represntation of m 
+is ""101"", after one iteration binary 
+reprentation will be ""100110"", and after 
+second iteration binary repreentation 
+will be ""100101101001"". 
+Example 1:
+
+Input: m = 5, n = 2, k = 1
+output: 1
+Explanation: Binary represntation of m 
+is ""101"", after one iteration binary 
+reprentation will be ""100110"", and after 
+second iteration binary repreentation 
+will be ""100101101001"". 
+Your task:
+You do not need to read any input or print anything. The task is to complete the function kthCharacter(), which takes 3 integers m, n, and k as input and returns a character. 
+Expected Time Complexity: O(2n)
+Expected Auxiliary Space: O(2n)
+Constraints:
+0 ≤ m ≤ 50
+0 ≤ n ≤ 10
+K is a valid index
+
+"
+ Find the median ,"
+Given an array arr[] of N integers, calculate the median
+ 
+Example 1:
+
+Input: N = 5
+arr[] = 90 100 78 89 67
+Output: 89
+Explanation: After sorting the array 
+middle element is the median 
+
+
+Example 2:
+
+Input: N = 4
+arr[] = 56 67 30 79â€‹
+Output: 61
+Explanation: In case of even number of 
+elemebts average of two middle elements 
+is the median
+
+
+ 
+Your Task:
+You don't need to read or print anything. Your task is to complete the function find_median() which takes the array as input parameter and returns the floor value of the median.
+ 
+Expected Time Complexity: O(n * log(n))
+Expected Space Complexity: O(1)
+ 
+Constraints:
+1 <= Length of Array <= 100
+1 <= Elements of Array <= 100
+
+"
+ Perfect Sum Problem ,"
+Given an array arr[] of integers and an integer sum, the task is to count all subsets of the given array with a sum equal to a given sum.
+Note: Answer can be very large, so, output answer modulo 109+7
+Example 1:
+
+Input: N = 6, arr[] = {2, 3, 5, 6, 8, 10}
+       sum = 10
+Output: 3
+Explanation: {2, 3, 5}, {2, 8}, {10}
+Example 2:
+
+Input: N = 5, arr[] = {1, 2, 3, 4, 5}
+       sum = 10
+Output: 3
+Explanation: {1, 2, 3, 4}, {1, 4, 5}, 
+             {2, 3, 5}
+
+Your Task:  
+You don't need to read input or print anything. Complete the function perfectSum() which takes N, array arr[] and sum as input parameters and returns an integer value
+
+Expected Time Complexity: O(N*sum)
+Expected Auxiliary Space: O(N*sum)
+
+Constraints:
+1 ≤ N*sum ≤ 106
+
+"
+ Ways To Tile A Floor ,"
+Given a floor of dimensions 2 x W and tiles of dimensions 2 x 1, the task is to find the number of ways the floor can be tiled. A tile can either be placed horizontally i.e as a 1 x 2 tile or vertically i.e as 2 x 1 tile. Print the answer modulo 109+7.
+ 
+Example 1:
+
+Input:
+W = 3
+Output:
+3
+Explanation:
+We need 3 tiles to tile the board
+of size  2 x 3. 
+We can tile in following ways:
+1) Place all 3 tiles vertically. 
+2) Place first tile vertically.
+and remaining 2 tiles horizontally.
+3) Place first 2 tiles horizontally
+and remaining tiles vertically.
+Example 2:
+
+Input:
+W = 4
+Output:
+5
+Explanation:
+For a 2 x 4 board, there are 5 ways
+1) All 4 vertical
+2) All 4 horizontal
+3) First 2 vertical, remaining
+2 horizontal.
+4) First 2 horizontal, remaining
+2 vertical.
+5) Corner 2 vertical, middle
+2 horizontal.
+ 
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function numberOfWays() which takes an Integer N as input and returns the answer.
+ 
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+ 
+Constraints:
+1 <= N <= 105
+
+"
+ Number of ways ,"
+Given a value N. In how many ways you can construct a grid of size N x 4 using tiles of size 1 x 4.
+
+Example 1:
+
+Input: N = 1
+Output: 1
+Explaination: There is only one way.
+
+Example 2:
+
+Input: N = 4
+Output: 2
+Explaination: The first way can be when all 
+the 1 x 4 tiles are arranged horizontally. 
+Second way can be when all the 1 x 4 tiles 
+are arranged vertically.
+
+Your Task:
+You do not need to read input or print anything. Your task is to complete the function arrangeTiles() which takes the value N as input parameter and returns the number of ways to make N x 4 grid using 1 x 4 tiles.
+
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(N)
+
+Constraints:
+1 ≤ N ≤ 80
+
+"
+ Minimum sum partition  ,"
+Given an integer array arr of size N, the task is to divide it into two sets S1 and S2 such that the absolute difference between their sums is minimum and find the minimum difference
+Example 1:
+
+Input: N = 4, arr[] = {1, 6, 11, 5} 
+Output: 1
+Explanation: 
+Subset1 = {1, 5, 6}, sum of Subset1 = 12 
+Subset2 = {11}, sum of Subset2 = 11   
+Example 2:
+
+Input: N = 2, arr[] = {1, 4}
+Output: 3
+Explanation: 
+Subset1 = {1}, sum of Subset1 = 1
+Subset2 = {4}, sum of Subset2 = 4
+
+Your Task:  
+You don't need to read input or print anything. Complete the function minDifference() which takes N and array arr as input parameters and returns the integer value
+
+Expected Time Complexity: O(N*|sum of array elements|)
+Expected Auxiliary Space: O(N*|sum of array elements|)
+
+Constraints:
+1 ≤ N*|sum of array elements| ≤ 106
+ 
+
+"
+ Game of XOR ,"
+Given an array A[] of size N. The value of an array is denoted by the bit-wise XOR of all elements it contains. Find the bit-wise XOR of the values of all subarrays of A[]. 
+Example 1:
+
+Input: N = 3, A[] = {1,2,3} 
+Output: 2
+Explanation:
+xor[1] = 1, 
+xor[1, 2] = 3
+xor[2, 3] = 1
+xor[1, 2, 3] = 0
+xor[2] = 2
+xor[3] = 3
+Result : 1 ^ 3 ^ 1 ^ 0 ^ 2 ^ 3 = 2
+
+
+Example 2:
+
+Input: N = 2, A[] = {1,2} 
+Output: 0
+Explanation:
+xor[1] = 1, 
+xor[1, 2] = 3
+xor[2] = 2
+Result : 1 ^ 3 ^ 2 = 0
+ 
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function gameOfXor() which takes an integer N and array A[] as input parameters and returns the answer.
+ 
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+ 
+Constraints:
+1 <= N <= 105
+1 <= A[i ]<= 105
+
+"
+ Count Occurences of Anagrams ,"
+Given a word pat and a text txt. Return the count of the occurences of anagrams of the word in the text.
+Example 1:
+
+Input:
+txt = forxxorfxdofr
+pat = for
+Output: 3
+Explanation: for, orf and ofr appears
+in the txt, hence answer is 3.
+
+Example 2:
+
+Input:
+txt = aabaabaa
+pat = aaba
+Output: 4
+Explanation: aaba is present 4 times
+in txt.
+
+Your Task:
+Complete the function search() which takes two strings pat, txt, as input parameters and returns an integer denoting the answer. You don't to print answer or take inputs.
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(26) or O(256)
+Constraints:
+1 <= |pat| <= |txt| <= 105
+Both string contains lowercase english letters.
+ 
+
+"
+ Unique Numbers ,"
+In the given range [L, R], print all numbers having unique digits. e.g. In range 10 to 20 should print all numbers except 11.
+Example 1:
+
+Input:
+L = 10
+R = 20
+
+Output:
+10 12 13 14 15 16 17 18 19 20
+
+Explanation:
+The number 11 has two 1 therefore
+11 is not a unique number.
+
+Example 2:
+
+Input:
+L = 1
+R = 9
+
+Output:
+1 2 3 4 5 6 7 8 9
+
+Explanation:
+All the Numbers are unique.
+Your Task:  
+You don't need to read input or print anything. Your task is to complete the function uniqueNumbers() which takes two integers L and R as an input parameter and returns the list/vector of all the unique numbers present between L to R.
+Expected Time Complexity: O(N)
+Expected Auxiliary Space: O(1)
+Constraints:
+1 <= L <= R <= 104
+ 
+
+"
+ Nth Fibonacci Number ,"
+Given a positive integer n, find the nth fibonacci number. Since the answer can be very large, return the answer modulo 1000000007.
+
+Example 1:
+
+Input: n = 2
+Output: 1 
+Explanation: 1 is the 2nd number
+of fibonacci series.
+
+Example 2:
+
+Input: n = 5
+Output: 5
+Explanation: 5 is the 5th number
+of fibonacci series.
+
+
+Your Task:  
+You dont need to read input or print anything. Complete the function nthFibonacci() which takes n as input parameter and returns nth fibonacci number.
+
+Expected Time Complexity: O(n)
+Expected Auxiliary Space: O(n)
+
+Constraints:
+1<= n <=1000
+
+"
+ Minimum steps to destination ,"
+Given an infinite number line. You start at 0 and can go either to the left or to the right. The condition is that in the ith move, youmust take i steps. Given a destination D , find the minimum number of steps required to reach that destination.
+Example 1:
+
+Input: D = 2
+Output: 3
+Explaination: The steps takn are +1, -2 and +3.
+Example 2:
+
+Input: D = 10
+Output: 4
+Explaination: The steps are +1, +2, +3 and +4.
+Your Task:
+You do not need to read input or print anything. Your task is to complete the function minSteps() which takes the value D as input parameter and returns the minimum number of steps required to reach the dedstination D from 0.
+Expected Time Complexity: O(D)
+Expected Auxiliary Space: O(1)
+Constraints:
+1 ≤ D ≤ 10000
+
+"
+ Maximum Profit  ,"
+In the stock market, a person buys a stock and sells it on some future date. Given the stock prices of N days in an array A[ ] and a positive integer K, find out the maximum profit a person can make in at-most K transactions. A transaction is equivalent to (buying + selling) of a stock and new transaction can start only when the previous transaction has been completed.
+
+Example 1:
+
+Input: K = 2, N = 6
+A = {10, 22, 5, 75, 65, 80}
+Output: 87
+Explaination: 
+1st transaction: buy at 10 and sell at 22. 
+2nd transaction : buy at 5 and sell at 80.
+
+Example 2:
+
+Input: K = 3, N = 4
+A = {20, 580, 420, 900}
+Output: 1040
+Explaination: The trader can make at most 2 
+transactions and giving him a profit of 1040.
+
+Example 3:
+
+Input: K = 1, N = 5
+A = {100, 90, 80, 50, 25}
+Output: 0
+Explaination: Selling price is decreasing 
+daily. So seller cannot have profit.
+
+Your Task:
+You do not need to read input or print anything. Your task is to complete the function maxProfit() which takes the values K, N and the array A[] as input parameters and returns the maximum profit.
+
+Expected Time Complexity: O(N*K)
+Expected Auxiliary Space: O(N*K)
+
+Constraints:
+1 ≤ N ≤ 500
+1 ≤ K ≤ 200
+1 ≤ A[ i ] ≤ 1000
+ 
+
+"
+ Ways to sum to N ,"
+Given a set of m distinct positive integers and a value ‘N’. Count the total number of ways we can form ‘N’ by  adding the array elements. Repetitions and different arrangements are allowed.
+Note: Answer can be quite large output the answer modulo 109+7.
+Example 1:
+
+Input:
+m = 3 , N = 7
+Arr[] = {1,5,6}
+Output: 6
+Explanation: The different ways are:
+1+1+1+1+1+1+1
+1+1+5
+1+5+1
+5+1+1
+1+6
+6+1
+
+â€‹Example 2:
+
+Input: 
+m = 3 , N = 3
+Arr[] = {1,2,3}
+Output: 4
+Explanation: The different ways are:
+1+1+1
+1+2
+2+1
+3  
+
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function countWays() which accepts array arr[], its size m and integer N and returns the total number of ways we can form ‘N’ by adding array elements.
+
+Expected Time Complexity: O(N*m)
+Expected Auxiliary Space: O(N)
+
+Constraints:
+1 <= N , m <= 103
+
+"
+ Reach the Nth point ,"
+There are N points on the road ,you can step ahead by 1 or 2 . Find the number of ways you can reach at point N. 
+Example 1:
+
+Input: N = 4
+Output: 5
+Explanation: Three ways to reach at 4th
+point. They are {1, 1, 1, 1}, {1, 1, 2},
+{1, 2, 1} {2, 1, 1}, {2, 2}.
+
+
+Example 2:
+
+Input: N = 5
+Output: 8
+Explanation: Three ways to reach at 5th
+point. They are {1, 1, 1, 1, 1},
+{1, 1, 1, 2}, {1, 1, 2, 1}, {1, 2, 1, 1},
+{2, 1, 1, 1}{1, 2, 2}, {2, 1, 2}, {2, 2, 1}
+
+
+Your Task:
+You don't need to read or print anyhting. Your task is to complete the function nthPoint() which takes N as input parameter and returns the total number of ways modulo 109 + 7 to reach at Nth point.
+Expected Time Complexity: O(N)
+Expected Space Complexity: O(N)
+Constraints:
+1 <= N <= 1000000
+
+"
